@@ -68,6 +68,7 @@ Email: naviteam24566@gmail.com
    
   3.1. 2022년 8월 1일 ~ 2022년 8월 31일:
      * 총 접수량 및 날짜별 접수량은 얼마인가? <br>
+ <left><img width="350" height="200" src="https://prnt.sc/vy2BNxgKQYZW" />
    
    
    
