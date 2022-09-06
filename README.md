@@ -65,11 +65,57 @@ Email: naviteam24566@gmail.com
  <h3 align="left"> III. 유기견보호에 대한 분석하기 </h3>
  
 * 다음 링크를 참여하고 기간은 2022년 8월 1일 ~ 2022년 8월 31일을 선정하기를 바란다. 다음 URL를 크릭하여 Dashboard 보여줄 것이다. <br>
+
+<h4 align="left"> 3.1: 2022년 8월 1일 ~ 2022년 8월 31일:  </h4>
    
-  3.1. 2022년 8월 1일 ~ 2022년 8월 31일:
-     * 총 접수량 및 날짜별 접수량은 얼마인가? <br>
- <left><img width="350" height="200" src="https://prnt.sc/vy2BNxgKQYZW" />
-   
-   
-   
-     * 날짜별 게시된 공고는 얼마인가?
+     * 총 접수건 및 일별 접수건은 얼마인가? 
+     
+<p align="center">
+ <img src="Images/접수건1.png" style="width:300px;"/>
+</p>
+
+<p align="center">
+ <img src="Images/일별접수건.png" style="width:600px;"/>
+</p>
+
+ <p align="center">     
+  <em>그림 1: 총 접수건 및 일별 접수건 </em>
+</p>
+
+<h4 align="left"> 3.2: 일별 풍종별 잡수건 및 각 풍종별 잡수건 얼마인가? </h4>
+
+<p align="center">
+ <img src="Images/일벌%20풍종별%20접수건.png" style="width:500px;"/>
+</p>
+
+<p align="center">
+ <img src="Images/일별%20품종별%20접수건a.png" style="width:500px;"/>
+</p>
+
+<p align="center">
+ <img src="Images/각%20품종별%20접수건.png" style="width:400px;"/>
+</p>
+
+ <p align="center">     
+  <em>그림 2: 일별 품종별 및 각 품종별 접수건 </em>
+</p>
+
+<h4 align="left"> 3.3: 품종별 성별 색상은 어떻게 되나요?? </h4>
+
+<p align="center">
+ <img src="Images/품종별%20성별%20색상.png" style="width:400px;"/>
+</p>
+
+ <p align="center">     
+  <em>그림 3:  품종별 성별 색상 </em>
+</p>
+
+<h4 align="left"> 3.4: 품종별 주요 품종접수는 어떻게 되나요?? </h4>
+
+<p align="center">
+ <img src="Images/품종별%20주요%20품종접수.png" style="width:400px;"/>
+</p>
+
+ <p align="center">     
+  <em>그림 4:  품종별 주요 품종접수 </em>
+</p>
