@@ -64,3 +64,4 @@ Email: naviteam24566@gmail.com
  
  <h3 align="left"> III. 유기견보호에 대한 분석하기 </h3>
  
+* 다음 링크를 참고하고 기간은 2022년 8월 1일 ~ 2022년 8월 31일을 선정하기를 바란다. 다음 URL를 크릭하여 Dashboard 보여줄 것이다.
