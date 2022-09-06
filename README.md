@@ -55,9 +55,12 @@ Email: naviteam24566@gmail.com
  
  <h4 align="left"> 2. 데이터 를 가져 오기  </h4>
  
- 
- 
- 
+ 동물보호관리시스템 유기동물 조회 서비스: <br>
+ *  공공데이터 URL [Data](https://www.data.go.kr/data/15098931/openapi.do) (농림축산식품부 농림축산검역본부_동물보호관리시스템 유기동물 조회 서비스)에 접속하고 조회를 할 수 있도록 **인증키**를 받아야 한다.
+   
+  *  http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?bgnde=20211201&endde=20211231&pageNo=1&numOfRows=10&serviceKey=인증키(URL Encode)
+   
+   이 링크에 원하는 날짜, 페이지 번호, 페이지당 보여줄 개수를 수정하고 **인증키**를 넣으면 된다.
  
  <h3 align="left"> III. 유기견보호에 대한 분석하기 </h3>
  
