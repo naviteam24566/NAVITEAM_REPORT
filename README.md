@@ -115,7 +115,38 @@ Email: naviteam24566@gmail.com
 <p align="center">
  <img src="Images/품종별%20주요%20품종접수.png" style="width:400px;"/>
 </p>
+   
+<p align="center">
+ <img src="Images/주요%20품종접수건.png" style="width:400px;"/>
+</p>
 
  <p align="center">     
   <em>그림 4:  품종별 주요 품종접수 </em>
+</p>
+   
+ <h4 align="left"> 3.5: 나이와 체중 관계가 어떻게 되나요? </h4>
+
+<p align="center">
+ <img src="Images/나이와%20체중%20관계.png" style="width:600px;"/>
+</p>
+ <p align="center">     
+  <em>그림 5:  나이와 체중 관계 </em>
+</p>
+   
+<h4 align="left"> 3.6: 총 보호소 및 보호소별 품종별 보호상태 통계가 어떻게 되나요? </h4>
+
+<p align="center">
+ <img src="Images/총%20보호소.png" style="width:300px;"/>
+</p>
+   
+ <p align="center">
+ <img src="Images/품종별%20보호상태.png" style="width:300px;"/>
+</p>
+   
+ <p align="center">
+ <img src="Images/보호소별%20품종별%20보호상태%20통계.png" style="width:700px;"/>
+</p>
+   
+ <p align="center">     
+  <em>그림 6: 총 보호소 및 보호소별 품종별 보호상태 통계 </em>
 </p>
