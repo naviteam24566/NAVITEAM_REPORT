@@ -16,6 +16,7 @@ Email: naviteam24566@gmail.com
 | 도트엉동 - DO TRUONG DONG | truongdong.sju@gamil.com | 010 - 9751 -9606 |
 | 반광틴   - PHAN QUANG THINH | quangthinh.276@gmail.com | 010 - 2800 -2767 |
 | 팜티궤느 - PHAM THI QUE NHU | phamthiquenhu.inu@gmail.com | 010 - 4472 -1095 |
+   
 
 <h3 align="left"> I. 유기견 개념 및 현황 </h3>
 <h4 align="left"> 1. 유기견 개념  </h4>
@@ -144,9 +145,44 @@ Email: naviteam24566@gmail.com
 </p>
    
  <p align="center">
- <img src="Images/보호소별%20품종별%20보호상태%20통계.png" style="width:700px;"/>
+ <img src="Images/보호소별%20품종별%20보호상태%20통계.png" style="width:900px;"/>
 </p>
    
  <p align="center">     
   <em>그림 6: 총 보호소 및 보호소별 품종별 보호상태 통계 </em>
+</p>
+
+<h4 align="left"> 3.7: 보호소별 보호상태 및 품종별은 어떻게 되나요? </h4>
+   
+<p align="center">
+ <img src="Images/보호소별%20보호상태.png" style="width:500px;"/>
+</p>
+   
+ <p align="center">
+ <img src="Images/보호소별%20품종별.png" style="width:500px;"/>
+</p>
+   
+ <p align="center">     
+  <em>그림 7: 보호소별 보호상태 및 품종별 </em>
+</p>
+ 
+ <h4 align="left"> 3.8: 유건동물은 어떻게 되나요? </h4>
+   
+ <p align="center">
+    
+ <img src="Images/유건동물.png" style="width:900px;"/>
+</p>
+   
+ <p align="center">     
+  <em>그림 8: 유건동물 </em>
+</p>
+   
+<h4 align="left"> 3.9: 경기도 보호소 맵 </h4>
+   
+ <p align="center">   
+ <img src="Images/경기도-유기동물보호시설현황.png" style="width:900px;"/>
+</p>
+   
+ <p align="center">     
+  <em>그림 9: 유건동물 </em>
 </p>
