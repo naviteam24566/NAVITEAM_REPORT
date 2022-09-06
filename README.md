@@ -155,7 +155,7 @@ Email: naviteam24566@gmail.com
 <h4 align="left"> 3.7: 보호소별 보호상태 및 품종별은 어떻게 되나요? </h4>
    
 <p align="center">
- <img src="Images/보호소별%20보호상태.png" style="width:500px;"/>
+ <img src="Images/보호소별%20보호상태1.png" style="width:500px;"/>
 </p>
    
  <p align="center">
