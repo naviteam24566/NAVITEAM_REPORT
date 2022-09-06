@@ -90,7 +90,7 @@ Email: naviteam24566@gmail.com
 </p>
 
 <p align="center">
- <img src="Images/일별%20품종별%20접수건a.png" style="width:500px;"/>
+ <img src="Images/일별%20품종별%20접수건ab.png" style="width:500px;"/>
 </p>
 
 <p align="center">
