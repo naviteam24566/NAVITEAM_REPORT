@@ -164,7 +164,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <em>그림 4: 총 접수건 및 일별 접수건 </em>
 </p>
 
-<h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건 어떻게 된가요? </h4>
+<h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
 
 <p align="center">
  <img src="Images/각 품종별 접수건.png" style="width:350px;"/>
@@ -178,7 +178,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <em>그림 5: 일별 품종별 및 각 품종별 접수건 </em>
 </p>
 
-<h4 align="left"> 4.4. 주요접수 품종 어떻게 된가요? </h4>
+<h4 align="left"> 4.4. 주요접수 품종  </h4>
 
 <p align="center">
  <img src="Images/주요 접수 품종.PNG" style="width:350px;"/>
@@ -202,7 +202,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <em>그림 7:  품종별 분석하기 </em>
 </p>
    
- <h4 align="left"> 4.6. 나이와 체중 관계가 어떻게 되나요? </h4>
+ <h4 align="left"> 4.6. 나이와 체중 관계 </h4>
 <p align="center">
  <img src="Images/나이과 체종 관계.png" style="width:600px;"/>
 </p>
@@ -211,7 +211,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <em>그림 8:  나이와 체중 관계 </em>
 </p>
    
-<h4 align="left"> 4.7. 보호소별 보호상태 및 품종별은 어떻게 되나요? </h4>
+<h4 align="left"> 4.7. 보호소별 보호상태 및 품종별 </h4>
    
    히트맵을 통해 보호상태가 “보호중”이라는 상태이다. 특히 전국에 한국돌물구조권리협회, 제주 동물보호센터, 부산둥물보호센터에서 “보호중” 유견 둥물을 제일 많이 차지 하고 있다. 
  색상이 밝을수록 건수가 적다.
@@ -224,7 +224,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <em>그림 9: 보호소별 보호상태  </em>
 </p>
 
-<h4 align="left"> 4.8. 발견 시도별 접수 품종 히트맵은 어떻게 되나요? </h4>
+<h4 align="left"> 4.8. 발견 시도별 접수 품종 히트맵 </h4>
    
 <p align="center">  
  <img src="Images/발견 시도별 접수 품종 히트맵.PNG" style="width:700px;"/>
@@ -234,7 +234,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <em>그림 10: 발견 시도별 접수 품종 히트맵 </em>
 </p>
  
- <h4 align="left"> 4.9. 유기동물은 어떻게 되나요? </h4>
+ <h4 align="left"> 4.9. 유기동물 </h4>
    
  <p align="center">
     
