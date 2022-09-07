@@ -149,8 +149,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
    
    
 <h4 align="left"> 4.2. 2022년 8월 1일 ~ 2022년 8월 31일:  </h4>
-   
-     * 총 접수건 및 일자별 접수건은 얼마인가? 
+   접수건 및 일자별 접수건은 얼마인가? 
      
 <p align="center">
  <img src="Images/kibana-metric.PNG" style="width:250px;"/>
