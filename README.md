@@ -65,8 +65,6 @@ Email: naviteam24566@gmail.com
    
    이 링크에 원하는 날짜, 페이지 번호, 페이지당 보여줄 개수를 수정하고 **인증키**를 넣으면 된다.
  
- <h3 align="left"> III. 유기견보호에 대한 분석하기 </h3>
- 
 * 다음 링크를 참여하고 기간은 2022년 8월 1일 ~ 2022년 8월 31일을 선정하기를 바란다. 다음 URL를 크릭하여 Dashboard 보여줄 것이다. <br>
 
 <h4 align="left"> 3.1: 2022년 8월 1일 ~ 2022년 8월 31일:  </h4>
@@ -188,3 +186,6 @@ Email: naviteam24566@gmail.com
  <p align="center">     
   <em>그림 9: 유건동물 </em>
 </p>
+   
+<h3 align="left"> III. 유기동물 관리 웹사이트 개발 프로세스 </h3>
+<h3 align="left"> IV. "CHATBOT" 성능 활용 </h3>
