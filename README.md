@@ -275,4 +275,10 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p>
    
 <h3 align="left"> III. 유기동물 관리 웹사이트 개발 프로세스 </h3>
+   
+   9원 16일 전에  완성할 예정이다.
+   
+   
 <h3 align="left"> IV. "CHATBOT" 성능 활용 </h3>
+   
+    9원 16일 전에  완성할 예정이다.
