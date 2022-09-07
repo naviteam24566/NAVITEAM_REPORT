@@ -228,6 +228,9 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 
 <h4 align="left"> 4.8. 보호소별 보호상태 및 품종별은 어떻게 되나요? </h4>
    
+   히트맵을 통해 보호상태가 “보호중”이라는 상태이다. 특히 전국에 한국돌물구조권리협회, 제주 동물보호센터, 부산둥물보호센터에서 “보호중” 유견 둥물을 제일 많이 차지 하고 있다. 
+ 색상이 밝을수록 건수가 적다.
+   
 <p align="center">
  <img src="Images/보호소별%20보호상태1.png" style="width:500px;"/>
 </p>
@@ -239,8 +242,18 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
  <p align="center">     
   <em>그림 7: 보호소별 보호상태 및 품종별 </em>
 </p>
+
+<h4 align="left"> 4.9. 발견 시도별 접수 품종 히트맵은 어떻게 되나요? </h4>
+   
+<p align="center">  
+ <img src="Images/발견%20시도별%20접수%20품종%20히트맵.png" style="width:700px;"/>
+</p>
+   
+ <p align="center">     
+  <em>그림 8: 히트맵 </em>
+</p>
  
- <h4 align="left"> 4.9. 유건동물은 어떻게 되나요? </h4>
+ <h4 align="left"> 4.10. 유건동물은 어떻게 되나요? </h4>
    
  <p align="center">
     
@@ -248,17 +261,17 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p>
    
  <p align="center">     
-  <em>그림 8: 유건동물 </em>
+  <em>그림 9: 유건동물 </em>
 </p>
    
-<h4 align="left"> 4.10. 기도 보호소 맵 </h4>
+<h4 align="left"> 4.11. 기도 보호소 맵 </h4>
    
  <p align="center">   
  <img src="Images/경기도-유기동물보호시설현황.png" style="width:900px;"/>
 </p>
    
  <p align="center">     
-  <em>그림 9: 유건동물 </em>
+  <em>그림 10: 유건동물 </em>
 </p>
    
 <h3 align="left"> III. 유기동물 관리 웹사이트 개발 프로세스 </h3>
