@@ -126,16 +126,24 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <img src=" Code/abdm-for.png " style="width:900px;"/>
 </p> 
    
-
-
+   
+<h4 align="left">4. 키바나에서 데이터를 분석  </h4>  
+   
+<h4 align="left">4.1. 사용자가 원하는 항목을 선택기능 만든다  </h4>  
+ 
+ <p align="center">
+  <img src=" Images/Kibana-control.png" style="width:500px;"/>
+</p> 
+   
+ <p align="center">     
+  <em>그림 3. Kibana-control 활용하기 </em>
+</p>
+ 
    
    
+<h4 align="left"> 4.2. 2022년 8월 1일 ~ 2022년 8월 31일:  </h4>
    
-   
-   
-<h4 align="left"> 3.1: 2022년 8월 1일 ~ 2022년 8월 31일:  </h4>
-   
-     * 총 접수건 및 일별 접수건은 얼마인가? 
+     * 총 접수건 및 일자별 접수건은 얼마인가? 
      
 <p align="center">
  <img src="Images/접수건1.png" style="width:300px;"/>
@@ -149,7 +157,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <em>그림 1: 총 접수건 및 일별 접수건 </em>
 </p>
 
-<h4 align="left"> 3.2: 일별 풍종별 잡수건 및 각 풍종별 잡수건 얼마인가? </h4>
+<h4 align="left"> 4.3. 일별 풍종별 잡수건 및 각 풍종별 잡수건 얼마인가? </h4>
 
 <p align="center">
  <img src="Images/일벌%20풍종별%20접수건.png" style="width:500px;"/>
@@ -167,7 +175,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <em>그림 2: 일별 품종별 및 각 품종별 접수건 </em>
 </p>
 
-<h4 align="left"> 3.3: 품종별 성별 색상은 어떻게 되나요?? </h4>
+<h4 align="left"> 4.4. 품종별 성별 색상은 어떻게 되나요?? </h4>
 
 <p align="center">
  <img src="Images/품종별%20성별%20색상.png" style="width:400px;"/>
@@ -177,7 +185,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <em>그림 3:  품종별 성별 색상 </em>
 </p>
 
-<h4 align="left"> 3.4: 품종별 주요 품종접수는 어떻게 되나요?? </h4>
+<h4 align="left"> 4.5. 품종별 주요 품종접수는 어떻게 되나요?? </h4>
 
 <p align="center">
  <img src="Images/품종별%20주요%20품종접수.png" style="width:400px;"/>
@@ -191,7 +199,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <em>그림 4:  품종별 주요 품종접수 </em>
 </p>
    
- <h4 align="left"> 3.5: 나이와 체중 관계가 어떻게 되나요? </h4>
+ <h4 align="left"> 4.6. 나이와 체중 관계가 어떻게 되나요? </h4>
 
 <p align="center">
  <img src="Images/나이와%20체중%20관계.png" style="width:600px;"/>
@@ -200,7 +208,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <em>그림 5:  나이와 체중 관계 </em>
 </p>
    
-<h4 align="left"> 3.6: 총 보호소 및 보호소별 품종별 보호상태 통계가 어떻게 되나요? </h4>
+<h4 align="left"> 4.7. 총 보호소 및 보호소별 품종별 보호상태 통계가 어떻게 되나요? </h4>
 
 <p align="center">
  <img src="Images/총%20보호소.png" style="width:300px;"/>
@@ -218,7 +226,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <em>그림 6: 총 보호소 및 보호소별 품종별 보호상태 통계 </em>
 </p>
 
-<h4 align="left"> 3.7: 보호소별 보호상태 및 품종별은 어떻게 되나요? </h4>
+<h4 align="left"> 4.8. 보호소별 보호상태 및 품종별은 어떻게 되나요? </h4>
    
 <p align="center">
  <img src="Images/보호소별%20보호상태1.png" style="width:500px;"/>
@@ -232,7 +240,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <em>그림 7: 보호소별 보호상태 및 품종별 </em>
 </p>
  
- <h4 align="left"> 3.8: 유건동물은 어떻게 되나요? </h4>
+ <h4 align="left"> 4.9. 유건동물은 어떻게 되나요? </h4>
    
  <p align="center">
     
@@ -243,7 +251,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
   <em>그림 8: 유건동물 </em>
 </p>
    
-<h4 align="left"> 3.9: 경기도 보호소 맵 </h4>
+<h4 align="left"> 4.10. 기도 보호소 맵 </h4>
    
  <p align="center">   
  <img src="Images/경기도-유기동물보호시설현황.png" style="width:900px;"/>
