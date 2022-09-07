@@ -74,7 +74,7 @@ Email: naviteam24566@gmail.com
    동물보호관리시스템의 유기동물 정보 파일이다. 각 행의 정보는 다음과 같다.
 
    <p align="center">
- <img src="Data/동물보호관리시스템의%20유기동물.png" style="width:600px;"/>
+ <img src="Data/동물보호관리시스템의%20유기동물.png" style="width:500px;"/>
 </p>
    
    품종 “ []” 로 구분 ([개] 믹스견) 한다.  이 프로젝트에 나중에 이 품종을 [“[개]”, “믹스견”] 같이 배열로 저장하기 위해 구분 한 것이다. 마잔가치로 공고번호 “충남-공주-2022-00001”는 [“충남”, “공주-2022-00001”]로 구분할 것이다.
@@ -121,7 +121,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
    
 * 인덱스를 생성하여 원하는 형태로 매핑해야 한다. 키바나 콘솔에서 “abdm-infor”인덱스를 만들면서 적용한다.
    <p align="center">
-  <img src=" Images/abdm-info-mapping.PNG " style="width:700px;"/>
+  <img src=" Images/abdm-info-mapping.PNG " style="width:500px;"/>
 </p> 
    
    
@@ -130,7 +130,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 * 인덱스 탬플릿을 이용하여 인덱스를 맵핑한다. 인덱스 탬플릿을 이용하면 설정이 동일한 복수의 인덱스를 만들 때 유리한다. 인덱스 탬플릿을 만들기 위해 키바나 콘솔에서 다음 API를 요청한다.
 
  <p align="center">
-  <img src=" Code/abdm-for.png " style="width:600px;"/>
+  <img src=" Code/abdm-for.png " style="width:500px;"/>
 </p> 
    
    
@@ -143,7 +143,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p> 
    
  <p align="center">     
-  <em>그림 1. Kibana-control 활용하기 </em>
+  <em>그림 3. Kibana-control 활용하기 </em>
 </p>
  
    
@@ -161,7 +161,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p>
 
  <p align="center">     
-  <em>그림 2: 총 접수건 및 일별 접수건 </em>
+  <em>그림 4: 총 접수건 및 일별 접수건 </em>
 </p>
 
 <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건 어떻게 된가요? </h4>
@@ -175,7 +175,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p>
 
  <p align="center">     
-  <em>그림 3: 일별 품종별 및 각 품종별 접수건 </em>
+  <em>그림 5: 일별 품종별 및 각 품종별 접수건 </em>
 </p>
 
 <h4 align="left"> 4.4. 주요접수 품종 어떻게 된가요? </h4>
@@ -185,7 +185,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p>
 
  <p align="center">     
-  <em>그림 4:  주요 접수 품종 </em>
+  <em>그림 6:  주요 접수 품종 </em>
 </p>
 
 <h4 align="left"> 4.5. 품종별 분석하기 </h4>
@@ -199,7 +199,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p>
 
  <p align="center">     
-  <em>그림 4:  품종별 분석하기 </em>
+  <em>그림 7:  품종별 분석하기 </em>
 </p>
    
  <h4 align="left"> 4.6. 나이와 체중 관계가 어떻게 되나요? </h4>
@@ -208,7 +208,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p>
 
  <p align="center">     
-  <em>그림 5:  나이와 체중 관계 </em>
+  <em>그림 8:  나이와 체중 관계 </em>
 </p>
    
 <h4 align="left"> 4.7. 보호소별 보호상태 및 품종별은 어떻게 되나요? </h4>
@@ -221,7 +221,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p>
      
  <p align="center">     
-  <em>그림 6: 보호소별 보호상태  </em>
+  <em>그림 9: 보호소별 보호상태  </em>
 </p>
 
 <h4 align="left"> 4.8. 발견 시도별 접수 품종 히트맵은 어떻게 되나요? </h4>
@@ -231,7 +231,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p>
    
  <p align="center">     
-  <em>그림 7: 발견 시도별 접수 품종 히트맵 </em>
+  <em>그림 10: 발견 시도별 접수 품종 히트맵 </em>
 </p>
  
  <h4 align="left"> 4.9. 유기동물은 어떻게 되나요? </h4>
@@ -242,7 +242,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p>
    
  <p align="center">     
-  <em>그림 8: 유기동물 library </em>
+  <em>그림 11: 유기동물 library </em>
 </p>
    
 <h4 align="left"> 4.10. 기도 보호소 맵 </h4>
@@ -252,7 +252,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p>
    
  <p align="center">     
-  <em>그림 9: 전국 유기동물보호센터 </em>
+  <em>그림 12: 전국 유기동물보호센터 </em>
 </p>
    
 <h3 align="left"> III. 유기동물 관리 웹사이트 개발 프로세스 </h3>
