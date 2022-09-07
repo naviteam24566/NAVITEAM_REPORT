@@ -133,7 +133,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 <h4 align="left">4.1. 사용자가 원하는 항목을 선택기능 만든다  </h4>  
  
  <p align="center">
-  <img src=" Images/Kibana-control.png" style="width:500px;"/>
+  <img src=" Images/kibana-control.png" style="width:500px;"/>
 </p> 
    
  <p align="center">     
@@ -147,7 +147,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
      * 총 접수건 및 일자별 접수건은 얼마인가? 
      
 <p align="center">
- <img src="Images/kibana-metric.PNG" style="width:300px;"/>
+ <img src="Images/kibana-metric.PNG" style="width:250px;"/>
 </p>
 
 <p align="center">
@@ -161,7 +161,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건 어떻게 된가요? </h4>
 
 <p align="center">
- <img src="Images/각 품종별 접수건.png" style="width:500px;"/>
+ <img src="Images/각 품종별 접수건.png" style="width:350px;"/>
 </p>
 
 <p align="center">
@@ -175,7 +175,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 <h4 align="left"> 4.4. 주요접수 품종 어떻게 된가요? </h4>
 
 <p align="center">
- <img src="Images/주요 접수 품종.PNG" style="width:400px;"/>
+ <img src="Images/주요 접수 품종.PNG" style="width:350px;"/>
 </p>
 
  <p align="center">     
@@ -185,11 +185,11 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 <h4 align="left"> 4.5. 품종별 분석하기 </h4>
 
 <p align="center">
- <img src="Images/품목별 주요 접수.png" style="width:400px;"/>
+ <img src="Images/품목별 주요 접수.png" style="width:350px;"/>
 </p>
 
 <p align="center">
- <img src="Images/성별과 색상 비율.png" style="width:400px;"/>
+ <img src="Images/성별과 색상 비율.png" style="width:350px;"/>
 </p>
 
  <p align="center">     
