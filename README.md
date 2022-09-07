@@ -66,7 +66,73 @@ Email: naviteam24566@gmail.com
    이 링크에 원하는 날짜, 페이지 번호, 페이지당 보여줄 개수를 수정하고 **인증키**를 넣으면 된다.
  
 * 다음 링크를 참여하고 기간은 2022년 8월 1일 ~ 2022년 8월 31일을 선정하기를 바란다. 다음 URL를 크릭하여 Dashboard 보여줄 것이다. <br>
+   
+ <h4 align="left"> 3. 데이터 를 분석  </h4>
+   
+ <h4 align="left"> 3.1: Abandonment202208-.csv:  </h4>  
+   동물보호관리시스템의 유기동물 정보 파일이다. 각 행의 정보는 다음과 같다.
 
+   <p align="center">
+ <img src="Data/동물보호관리시스템의%20유기동물.png" style="width:600px;"/>
+</p>
+   
+   품종 “ []” 로 구분 ([개] 믹스견) 한다.  이 프로젝트에 나중에 이 품종을 [“[개]”, “믹스견”] 같이 배열로 저장하기 위해 구분 한 것이다. 마잔가치로 공고번호 “충남-공주-2022-00001”는 [“충남”, “공주-2022-00001”]로 구분할 것이다.
+ 
+<h4 align="left"> 3.2: Animal-center.csv:  </h4>  
+   
+  전국 동물보호센터 정보를 제공한다. 여러 행목이 있으나 Elastic Map Service 를 이용해서 표현하기 위한 “longitude”과 “latitude” 값을 이용하겠다. 그래서 필요한 정보만 수집하여 저장되었다. 다음 과 같다.
+   
+<p align="center">
+  <img src="Data/전국%20동물보호센터%20정보.png" style="width:600px;"/>
+</p> 
+
+ <h4 align="left"> 3.3: 파일 색인  </h4>  
+  먼저 “animal-center.csv”파일을 색인하겠다. 카바나의 Data Visualizer 의 파일 업로드 기능을 이용해서 색인한 것이다.
+위와 같이 키바나 기능을 이용하여 자동으로 “latitude” 과 “longitude”를 location (geo_point)으로 안다.
+   
+<p align="center">
+  <img src="Data/전국%20동물보호센터%20정보1.png" style="width:600px;"/>
+</p>  
+ <p align="center">     
+  <em>그림 1: 전국 동물보호센터 정보 </em>
+</p>
+   
+<h4 align="left"> 3.4: 파일 읽기 </h4>  
+   
+  로그스태시 파이프라인을 작성할 때, input은 CSV 파일을 가져와야 하므로 파일 plugin을 사용한다. 
+Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라인을 작성한다.
+   
+<p align="center">
+  <img src=" Code/logstash-abandonment.conf.png" style="width:900px;"/>
+</p> 
+   
+ <p align="center">     
+  <em>그림 2: logstash-abandonment.conf </em>
+</p>
+   
+* “date” 필터 플러그인을 사용해여 “2022-08-01”과 같이 “YYYY-MM-dd” 형식의 시간 포맷을 따로 문자열을 elasticsearch의 날짜/시간 타입으로 인덱싱 가능하도록 변경할 것이다. 
+* “split”: “kindCd” ([개] 믹스견)는 “[개]”와 “믹스견”으로 구분한다. 새로운 field는 [개]-kind이고 “믹스견”-subKind이라고 한다. 마찬가지로 “noticeNo”(충남-공주-2022-00001)는 “충남”-noticeCity 및 “공주-2022-00001”-notice.No으로 구분하여 새로운 field를 만든다.
+* “remove”: 불필요한 field를 삭제한다.
+   
+   
+   
+<h4 align="left"> 3.5: 인덱스 매핑 </h4> 	
+   
+* 인덱스를 생성하여 원하는 형태로 매핑해야 한다. 키바나 콘솔에서 “abdm-for”인덱스를 만들면서 적용한다.
+
+* 인덱스 탬플릿을 이용하여 인덱스를 맵핑한다. 인덱스 탬플릿을 이용하면 설정이 동일한 복수의 인덱스를 만들 때 유리한다. 인덱스 탬플릿을 만들기 위해 키바나 콘솔에서 다음 API를 요청한다.
+
+ <p align="center">
+  <img src=" Code/abdm-for.png " style="width:900px;"/>
+</p> 
+   
+
+
+   
+   
+   
+   
+   
 <h4 align="left"> 3.1: 2022년 8월 1일 ~ 2022년 8월 31일:  </h4>
    
      * 총 접수건 및 일별 접수건은 얼마인가? 
