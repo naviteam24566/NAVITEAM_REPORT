@@ -119,12 +119,18 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
    
 <h4 align="left"> 3.5: 인덱스 매핑 </h4> 	
    
-* 인덱스를 생성하여 원하는 형태로 매핑해야 한다. 키바나 콘솔에서 “abdm-for”인덱스를 만들면서 적용한다.
+* 인덱스를 생성하여 원하는 형태로 매핑해야 한다. 키바나 콘솔에서 “abdm-infor”인덱스를 만들면서 적용한다.
+   <p align="center">
+  <img src=" Code/abdm-info-mapping.PNG " style="width:700px;"/>
+</p> 
+   
+   
+<h4 align="left">
 
 * 인덱스 탬플릿을 이용하여 인덱스를 맵핑한다. 인덱스 탬플릿을 이용하면 설정이 동일한 복수의 인덱스를 만들 때 유리한다. 인덱스 탬플릿을 만들기 위해 키바나 콘솔에서 다음 API를 요청한다.
 
  <p align="center">
-  <img src=" Code/abdm-for.png " style="width:900px;"/>
+  <img src=" Code/abdm-for.png " style="width:700px;"/>
 </p> 
    
    
