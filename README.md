@@ -251,10 +251,10 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p>
    
  <p align="center">     
-  <em>그림 8: 히트맵 </em>
+  <em>그림 8: 발견 시도별 접수 품종 히트맵 </em>
 </p>
  
- <h4 align="left"> 4.10. 유건동물은 어떻게 되나요? </h4>
+ <h4 align="left"> 4.10. 유기동물은 어떻게 되나요? </h4>
    
  <p align="center">
     
@@ -262,7 +262,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p>
    
  <p align="center">     
-  <em>그림 9: 유건동물 </em>
+  <em>그림 9: 유기동물 library </em>
 </p>
    
 <h4 align="left"> 4.11. 기도 보호소 맵 </h4>
@@ -272,7 +272,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 </p>
    
  <p align="center">     
-  <em>그림 10: 유건동물 </em>
+  <em>그림 10: 전국 유기동물보호센터 </em>
 </p>
    
 <h3 align="left"> III. 유기동물 관리 웹사이트 개발 프로세스 </h3>
