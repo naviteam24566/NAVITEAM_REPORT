@@ -92,7 +92,7 @@ Email: naviteam24566@gmail.com
 위와 같이 키바나 기능을 이용하여 자동으로 “latitude” 과 “longitude”를 location (geo_point)으로 안다.
    
 <p align="center">
-  <img src="Data/전국%20동물보호센터%20정보1.png" style="width:600px;"/>
+  <img src="Data/전국%20동물보호센터%20정보1.png" style="width:450px;"/>
 </p>  
  <p align="center">     
   <em>그림 1: 전국 동물보호센터 정보 </em>
@@ -133,7 +133,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 <h4 align="left">4.1. 사용자가 원하는 항목을 선택기능 만든다  </h4>  
  
  <p align="center">
-  <img src=" Images/kibana-control.png" style="width:500px;"/>
+  <img src=" Images/kibana-control.PNG" style="width:400px;"/>
 </p> 
    
  <p align="center">     
@@ -211,7 +211,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
  색상이 밝을수록 건수가 적다.
    
 <p align="center">
- <img src="Images/보호소별 보호상태.PNG" style="width:500px;"/>
+ <img src="Images/보호소별 보호상태.PNG" style="width:550px;"/>
 </p>
      
  <p align="center">     
@@ -242,7 +242,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 <h4 align="left"> 4.10. 기도 보호소 맵 </h4>
    
  <p align="center">   
- <img src="Images/전국 동물보호센터 정보.PNG" style="width:900px;"/>
+ <img src="Images/전국 동물보호센터 정보.PNG" style="width:750px;"/>
 </p>
    
  <p align="center">     
