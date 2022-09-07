@@ -84,7 +84,7 @@ Email: naviteam24566@gmail.com
   전국 동물보호센터 정보를 제공한다. 여러 행목이 있으나 Elastic Map Service 를 이용해서 표현하기 위한 “longitude”과 “latitude” 값을 이용하겠다. 그래서 필요한 정보만 수집하여 저장되었다. 다음 과 같다.
    
 <p align="center">
-  <img src="Data/전국%20동물보호센터%20정보.png" style="width:600px;"/>
+  <img src="Data/전국%20동물보호센터%20정보.png" style="width:400px;"/>
 </p> 
 
  <h4 align="left"> 3.3: 파일 색인  </h4>  
@@ -92,7 +92,7 @@ Email: naviteam24566@gmail.com
 위와 같이 키바나 기능을 이용하여 자동으로 “latitude” 과 “longitude”를 location (geo_point)으로 안다.
    
 <p align="center">
-  <img src="Data/전국%20동물보호센터%20정보1.png" style="width:450px;"/>
+  <img src="Data/전국%20동물보호센터%20정보1.png" style="width:300px;"/>
 </p>  
  <p align="center">     
   <em>그림 1: 전국 동물보호센터 정보 </em>
@@ -104,7 +104,7 @@ Email: naviteam24566@gmail.com
 Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라인을 작성한다.
    
 <p align="center">
-  <img src=" Code/logstash-abandonment.conf.png" style="width:900px;"/>
+  <img src=" Code/logstash-abandonment.conf.png" style="width:800px;"/>
 </p> 
    
  <p align="center">     
@@ -121,7 +121,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
    
 * 인덱스를 생성하여 원하는 형태로 매핑해야 한다. 키바나 콘솔에서 “abdm-infor”인덱스를 만들면서 적용한다.
    <p align="center">
-  <img src=" Code/abdm-info-mapping.PNG " style="width:700px;"/>
+  <img src=" Images/abdm-info-mapping.PNG " style="width:700px;"/>
 </p> 
    
    
@@ -130,7 +130,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 * 인덱스 탬플릿을 이용하여 인덱스를 맵핑한다. 인덱스 탬플릿을 이용하면 설정이 동일한 복수의 인덱스를 만들 때 유리한다. 인덱스 탬플릿을 만들기 위해 키바나 콘솔에서 다음 API를 요청한다.
 
  <p align="center">
-  <img src=" Code/abdm-for.png " style="width:700px;"/>
+  <img src=" Code/abdm-for.png " style="width:600px;"/>
 </p> 
    
    
@@ -139,7 +139,7 @@ Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라�
 <h4 align="left">4.1. 사용자가 원하는 항목을 선택기능 만든다  </h4>  
  
  <p align="center">
-  <img src=" Images/kibana-control.PNG" style="width:400px;"/>
+  <img src=" Images/kibana-control.PNG" style="width:300px;"/>
 </p> 
    
  <p align="center">     
