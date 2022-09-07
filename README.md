@@ -57,15 +57,16 @@ Email: naviteam24566@gmail.com
 * 키바나를 통해서 시각화하기 (잠고: 엘라스틱서치, 키바나, 러그스태스를 설치하고 실행한다) Dashboard 결과 에 분석한 결과를 보러가기를 바람.
  
  <h4 align="left"> 2. 데이터 를 가져 오기  </h4>
- 
- 동물보호관리시스템 유기동물 조회 서비스: <br>
- *  공공데이터 URL [Data](https://www.data.go.kr/data/15098931/openapi.do) (농림축산식품부 농림축산검역본부_동물보호관리시스템 유기동물 조회 서비스)에 접속하고 조회를 할 수 있도록 **인증키**를 받아야 한다.
+ 공공데이터 Open API 활용하여 CSV파일을 가져온다.
+-	전국동물보호센터정보표준데이터( [전국동물보호센터정보표준데이터](https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15025454)
+- 동물보호관리시스템 유기동물 조회 서비스: <br>
+ *  공공데이터 URL [Data 유기동물 조회](https://www.data.go.kr/data/15098931/openapi.do) (농림축산식품부 농림축산검역본부_동물보호관리시스템 유기동물 조회 서비스)에 접속하고 조회를 할 수 있도록 **인증키**를 받아야 한다.
    
   *  http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?bgnde=20211201&endde=20211231&pageNo=1&numOfRows=10&serviceKey=인증키(URL Encode)
    
-   이 링크에 원하는 날짜, 페이지 번호, 페이지당 보여줄 개수를 수정하고 **인증키**를 넣으면 된다.
- 
-* 다음 링크를 참여하고 기간은 2022년 8월 1일 ~ 2022년 8월 31일을 선정하기를 바란다. 다음 URL를 크릭하여 Dashboard 보여줄 것이다. <br>
+   이 링크에 원하는 날짜, 페이지 번호, 페이지당 보여줄 개수를 수정하고 **인증키**를 넣으면 된다
+    
+* 다음 링크를 참여하고 기간은 2022년 8월 1일 ~ 2022년 8월 31일을 선정하기를 바란다. 다음 URL를 크릭하여 [Dashboard](http://20.196.202.9:5601/app/dashboards?fbclid=IwAR3vAB_ihpbIkgOUTpMecLi9ica7Jl8gYYn8LAzC2XNeacttw5p0Qj4ym4U#/view/ff67f180-2deb-11ed-9b19-23bc33f719e5?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-07-31T15:00:00.000Z',to:'2022-08-31T14:30:00.000Z')))  보여줄 것이다. <br>
    
  <h4 align="left"> 3. 데이터 를 분석  </h4>
    
