@@ -244,7 +244,7 @@ mutate {
 <h4 align="left">4.1. 사용자가 원하는 항목을 선택기능 만든다  </h4>  
  
  <p align="center">
-  <img src=" Images/kibana-control.PNG" style="width:500px;"/>
+  <img src=" Images/kibana-control.PNG" style="width:1000px;"/>
 </p> 
    
  <p align="center">     
@@ -283,47 +283,27 @@ mutate {
 <h4 align="left"> 4.4. 주요접수 품종, 색상 및 특징  </h4>
 
 <p align="center">
- <img src="Images/주요 품종.PNG" style="width:350px;"/>
-</p>
-<p align="center">
- <img src="Images/주요 색상.PNG" style="width:350px;"/>
-</p>
- <p align="center">
- <img src="Images/주요 특징.PNG" style="width:350px;"/>
+ <img src="Images/주요 품종 색상 특징.PNG" style="width:800px;"/>
 </p>
  <p align="center">     
   <em>그림 8:  주요접수 품종, 색상 및 특징 </em>
 </p>
 
-<h4 align="left"> 4.5. 품종별 분석하기 </h4>
-
+   <h4 align="left"> 4.5. 성별과 중성화 관계 </h4>
 <p align="center">
- <img src="Images/품목별 주요 접수.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/성별과 색상 비율.png" style="width:350px;"/>
+ <img src="Images/성별 및 중성화.png" style="width:400px;"/>
 </p>
 
  <p align="center">     
-  <em>그림 9:  품종별 분석하기 </em>
-</p>
-
-   <h4 align="left"> 4.6. 성별과 중성화 관계 </h4>
-<p align="center">
- <img src="Images/성별 및 중성화.png" style="width:600px;"/>
-</p>
-
- <p align="center">     
-  <em>그림 10:  성별과 중성화 관계 </em>
+  <em>그림 9:  성별과 중성화 관계 </em>
 </p>   
- <h4 align="left"> 4.7. 나이와 체중 관계 </h4>
+ <h4 align="left"> 4.6. 나이와 체중 관계 </h4>
 <p align="center">
  <img src="Images/나이와 체종 관계.PNG" style="width:600px;"/>
 </p>
 
  <p align="center">     
-  <em>그림 11:  나이와 체중 관계 </em>
+  <em>그림 10:  나이와 체중 관계 </em>
 </p>
    
 <h4 align="left"> 4.7. 보호소별 보호상태 및 품종별 </h4>
@@ -336,7 +316,7 @@ mutate {
 </p>
      
  <p align="center">     
-  <em>그림 12: 보호소별 보호상태  </em>
+  <em>그림 11: 보호소별 보호상태  </em>
 </p>
 
 <h4 align="left"> 4.8. 발견 도시별 접수 품종별 보호상태 히트맵 </h4>
@@ -346,7 +326,7 @@ mutate {
 </p>
    
  <p align="center">     
-  <em>그림 13: 발견 도시별 접수 품종별 보호상태 히트맵 </em>
+  <em>그림 12: 발견 도시별 접수 품종별 보호상태 히트맵 </em>
 </p>
  
  <h4 align="left"> 4.9. 유기동물 </h4>
@@ -357,7 +337,7 @@ mutate {
 </p>
    
  <p align="center">     
-  <em>그림 14: 유기동물 library </em>
+  <em>그림 13: 유기동물 library </em>
 </p>
    
 <h4 align="left"> 4.10. 전국동물보호센터 맵 </h4>
@@ -367,7 +347,7 @@ mutate {
 </p>
    
  <p align="center">     
-  <em>그림 15: 전국동물보호센터 맵 </em>
+  <em>그림 14: 전국동물보호센터 맵 </em>
 </p>
    히트냅을 보다시피 4.8와 같이 현재 "경기도"에서 접수건 및 "보호중" 유기동물이 제일 많고 마잔가지로 거기에 "동물보호센터"도 제일 많이 있다.  
  <h4 align="left"> 4.11. 전국동물보호센터 정보 </h4>
@@ -377,7 +357,7 @@ mutate {
 </p>
    
  <p align="center">     
-  <em>그림 16: 전국동물보호센터 정보 </em>
+  <em>그림 15: 전국동물보호센터 정보 </em>
 </p>
    
 <h3 align="left"> III. 유기동물 관리 웹사이트 개발 프로세스 </h3>
