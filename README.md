@@ -123,6 +123,10 @@ conn = db_connection.connect()
 }
 df.to_sql(name='aug', con=db_connection, if_exists='append', index=False,dtype=dtypesql)
  ```
+*MySQL table:*
+
+<img width="1080" alt="Screenshot 2022-09-15 034841" src="https://user-images.githubusercontent.com/79763166/190238822-fbd36e3e-4209-46da-a333-f95f0946847b.png" style="width:800px;"/>
+
  
  2. Push data from server to Kibanda by Logstash
  
@@ -140,6 +144,7 @@ input {
       jdbc_password => "PASSWORD"
       statement =>"SELECT * from aug"
    }
+}
 ```
 ***Filter***
 
