@@ -76,7 +76,7 @@ Email: naviteam24566@gmail.com
    
    이 링크에 원하는 날짜, 페이지 번호, 페이지당 보여줄 개수를 수정하고 **인증키**를 넣으면 된다
     
-* 다음 링크를 참여하고 기간은 2022년 8월 1일 ~ 2022년 8월 31일을 선정하기를 바란다. 다음 URL를 크릭하여 [Dashboard](http://20.196.202.9:5601/app/dashboards?fbclid=IwAR3vAB_ihpbIkgOUTpMecLi9ica7Jl8gYYn8LAzC2XNeacttw5p0Qj4ym4U#/view/ff67f180-2deb-11ed-9b19-23bc33f719e5?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-07-31T15:00:00.000Z',to:'2022-08-31T14:30:00.000Z')))  보여줄 것이다. <br>
+* 다음 링크를 참여하고 기간은 2022년 8월 1일 ~ 2022년 8월 31일을 선정하기를 바란다. 다음 URL를 크릭하여 [Dashboard ](http://20.196.212.72:5601/app/dashboards#/view/760f8820-3454-11ed-bf24-f7c87035bdbc?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-07-31T15:00:00.000Z',to:'2022-08-31T14:30:00.000Z')))  보여줄 것이다. <br>
  
  
  ### B. Method 2
