@@ -219,7 +219,7 @@ mutate {
    
 * 인덱스를 생성하여 원하는 형태로 매핑해야 한다. 키바나 콘솔에서 **“abandonment-info”** 인덱스를 만들면서 적용한다.
    <p align="center">
-  <img src=" Images/abandonment-info-mapping-code.PNG " style="width:500px;"/>
+  <img src=" Images/abandonment-info-mapping-code.PNG " style="width:300px;"/>
 </p>    
 <p align = "center">
  <em>그림 3: mapping 코드 </em>
@@ -239,23 +239,23 @@ mutate {
    ```
 <h4 align="left">4. 키바나에서 데이터를 분석  </h4>  
    
+자세한 내용은 다음 URL를 [Dashboard 유기동물](http://20.196.212.72:5601/app/dashboards#/view/760f8820-3454-11ed-bf24-f7c87035bdbc?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-07-31T15:00:00.000Z',to:'2022-08-31T14:30:00.000Z'))) 접속하기를 바란다.
+   
 <h4 align="left">4.1. 사용자가 원하는 항목을 선택기능 만든다  </h4>  
  
  <p align="center">
-  <img src=" Images/kibana-control.PNG" style="width:300px;"/>
+  <img src=" Images/kibana-control.PNG" style="width:500px;"/>
 </p> 
    
  <p align="center">     
-  <em>그림 3. Kibana-control 활용하기 </em>
+  <em>그림 5. Kibana-control 활용하기 </em>
 </p>
- 
-   
-   
+    
 <h4 align="left"> 4.2. 2022년 8월 1일 ~ 2022년 8월 31일:  </h4>
    접수건 및 일자별 접수건은 얼마인가? 
      
 <p align="center">
- <img src="Images/kibana-metric.PNG" style="width:250px;"/>
+ <img src="Images/총 접수건.PNG" style="width:250px;"/>
 </p>
 
 <p align="center">
@@ -263,13 +263,13 @@ mutate {
 </p>
 
  <p align="center">     
-  <em>그림 4: 총 접수건 및 일별 접수건 </em>
+  <em>그림 6: 총 접수건 및 일별 접수건 </em>
 </p>
 
 <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
 
 <p align="center">
- <img src="Images/각 품종별 접수건.png" style="width:350px;"/>
+ <img src="Images/품종별 접수건.png" style="width:350px;"/>
 </p>
 
 <p align="center">
@@ -277,17 +277,22 @@ mutate {
 </p>
 
  <p align="center">     
-  <em>그림 5: 일별 품종별 및 각 품종별 접수건 </em>
+  <em>그림 7: 일별 품종별 및 각 품종별 접수건 </em>
 </p>
 
-<h4 align="left"> 4.4. 주요접수 품종  </h4>
+<h4 align="left"> 4.4. 주요접수 품종, 색상 및 특징  </h4>
 
 <p align="center">
- <img src="Images/주요 접수 품종.PNG" style="width:350px;"/>
+ <img src="Images/주요 품종.PNG" style="width:350px;"/>
 </p>
-
+<p align="center">
+ <img src="Images/주요 색상.PNG" style="width:350px;"/>
+</p>
+ <p align="center">
+ <img src="Images/주요 특징.PNG" style="width:350px;"/>
+</p>
  <p align="center">     
-  <em>그림 6:  주요 접수 품종 </em>
+  <em>그림 8:  주요접수 품종, 색상 및 특징 </em>
 </p>
 
 <h4 align="left"> 4.5. 품종별 분석하기 </h4>
@@ -301,60 +306,78 @@ mutate {
 </p>
 
  <p align="center">     
-  <em>그림 7:  품종별 분석하기 </em>
+  <em>그림 9:  품종별 분석하기 </em>
 </p>
-   
- <h4 align="left"> 4.6. 나이와 체중 관계 </h4>
+
+   <h4 align="left"> 4.6. 성별과 중성화 관계 </h4>
 <p align="center">
- <img src="Images/나이과 체종 관계.png" style="width:600px;"/>
+ <img src="Images/성별 및 중성화.png" style="width:600px;"/>
 </p>
 
  <p align="center">     
-  <em>그림 8:  나이와 체중 관계 </em>
+  <em>그림 10:  성별과 중성화 관계 </em>
+</p>   
+ <h4 align="left"> 4.7. 나이와 체중 관계 </h4>
+<p align="center">
+ <img src="Images/나이와 체종 관계.PNG" style="width:600px;"/>
+</p>
+
+ <p align="center">     
+  <em>그림 11:  나이와 체중 관계 </em>
 </p>
    
 <h4 align="left"> 4.7. 보호소별 보호상태 및 품종별 </h4>
    
-   히트맵을 통해 보호상태가 “보호중”이라는 상태이다. 특히 전국에 한국돌물구조권리협회, 제주 동물보호센터, 부산둥물보호센터에서 “보호중” 유견 둥물을 제일 많이 차지 하고 있다. 
+   히트맵을 통해 전국에 한국돌물구조권리협회, 제주 동물보호센터, 부산둥물보호센터에서 “보호중” 유기 둥물을 제일 많이 차지 하고 있다. 
  색상이 밝을수록 건수가 적다.
    
 <p align="center">
- <img src="Images/보호소별 보호상태.PNG" style="width:550px;"/>
+ <img src="Images/보호소별 보호소 상태.PNG" style="width:550px;"/>
 </p>
      
  <p align="center">     
-  <em>그림 9: 보호소별 보호상태  </em>
+  <em>그림 12: 보호소별 보호상태  </em>
 </p>
 
-<h4 align="left"> 4.8. 발견 시도별 접수 품종 히트맵 </h4>
+<h4 align="left"> 4.8. 발견 도시별 접수 품종별 보호상태 히트맵 </h4>
    
 <p align="center">  
- <img src="Images/발견 시도별 접수 품종 히트맵.PNG" style="width:700px;"/>
+ <img src="Images/발견도시별 품종별 보호상태.PNG" style="width:700px;"/>
 </p>
    
  <p align="center">     
-  <em>그림 10: 발견 시도별 접수 품종 히트맵 </em>
+  <em>그림 13: 발견 도시별 접수 품종별 보호상태 히트맵 </em>
 </p>
  
  <h4 align="left"> 4.9. 유기동물 </h4>
    
  <p align="center">
     
- <img src="Images/유기동물 -libarary.PNG" style="width:900px;"/>
+ <img src="Images/kibana-library.PNG" style="width:900px;"/>
 </p>
    
  <p align="center">     
-  <em>그림 11: 유기동물 library </em>
+  <em>그림 14: 유기동물 library </em>
 </p>
    
-<h4 align="left"> 4.10. 기도 보호소 맵 </h4>
+<h4 align="left"> 4.10. 전국동물보호센터 맵 </h4>
    
  <p align="center">   
- <img src="Images/전국 동물보호센터 정보.PNG" style="width:750px;"/>
+ <img src="Images/전국동물보호센터 맵 및 히트맵.PNG" style="width:750px;"/>
 </p>
    
  <p align="center">     
-  <em>그림 12: 전국 유기동물보호센터 </em>
+  <em>그림 15: 전국동물보호센터 맵 </em>
+</p>
+   히트냅을 보다시피 4.8와 같이 현재 "경기도"에서 접수건 및 "보호중" 유기동물이 제일 많고 마잔가지로 거기에 "동물보호센터"도 제일 많이 있다.  
+ <h4 align="left"> 4.11. 전국동물보호센터 정보 </h4>
+   
+ <p align="center">   
+ <img src="Images/전국동물보호센터 정보.PNG" style="width:750px;"/>
+</p>
+   
+ <p align="center">     
+  <em>그림 16: 전국동물보호센터 정보 </em>
 </p>
    
 <h3 align="left"> III. 유기동물 관리 웹사이트 개발 프로세스 </h3>
