@@ -259,7 +259,7 @@ mutate {
 </p>
 
 <p align="center">
- <img src="Images/일별 접수건.png" style="width:600px;"/>
+ <img src="Images/일별 접수건.PNG" style="width:600px;"/>
 </p>
 
  <p align="center">     
@@ -291,7 +291,7 @@ mutate {
 
    <h4 align="left"> 4.5. 성별과 중성화 관계 </h4>
 <p align="center">
- <img src="Images/성별 및 중성화.png" style="width:400px;"/>
+ <img src="Images/성별 및 중성화.png" style="width:350px;"/>
 </p>
 
  <p align="center">     
@@ -299,7 +299,7 @@ mutate {
 </p>   
  <h4 align="left"> 4.6. 나이와 체중 관계 </h4>
 <p align="center">
- <img src="Images/나이와 체종 관계.PNG" style="width:600px;"/>
+ <img src="Images/나이와 체종 관계.PNG" style="width:500px;"/>
 </p>
 
  <p align="center">     
@@ -343,7 +343,7 @@ mutate {
 <h4 align="left"> 4.10. 전국동물보호센터 맵 </h4>
    
  <p align="center">   
- <img src="Images/전국동물보호센터 맵 및 히트맵.PNG" style="width:750px;"/>
+ <img src="Images/전국동물보호센터 맵 및 히트맵.PNG" style="width:550px;"/>
 </p>
    
  <p align="center">     
