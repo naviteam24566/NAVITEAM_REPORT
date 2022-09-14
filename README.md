@@ -67,9 +67,9 @@ Email: naviteam24566@gmail.com
 * 키바나를 통해서 시각화하기 (잠고: 엘라스틱서치, 키바나, 러그스태스를 설치하고 실행한다)
  
  <h4 align="left"> 2. 데이터 를 가져 오기  </h4>
- * 공공데이터 Open API 활용하여 CSV파일을 가져온다.
-   [전국동물보호센터정보표준데이터](https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15025454 )
-  * 동물보호관리시스템 유기동물 조회 서비스:
+   * 공공데이터 Open API 활용하여 CSV파일을 가져온다.
+   [전국동물보호센터정보표준데이터](https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15025454)
+   * 동물보호관리시스템 유기동물 조회 서비스:
    [공공데이터 URL](https://www.data.go.kr/data/15098931/openapi.do) (농림축산식품부 농림축산검역본부_동물보호관리시스템 유기동물 조회 서비스)에 접속하고 조회를 할 수 있도록 **인증키**를 받아야 한다.
    
   *  http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?bgnde=20211201&endde=20211231&pageNo=1&numOfRows=10&serviceKey=인증키(URL Encode)
