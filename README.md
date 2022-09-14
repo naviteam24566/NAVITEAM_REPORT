@@ -134,7 +134,7 @@ df.to_sql(name='aug', con=db_connection, if_exists='append', index=False,dtype=d
 
 We already formated data so it's not necessary to format in Logstash
 
-```python
+```logstash
 input {
    jdbc {
       jdbc_driver_library => "/home/naviteam/.../mysql-connector-java-8.0.30.jar"
@@ -150,14 +150,29 @@ input {
 
 Here, we split `kindCd` field into `kind` and `subkind` in onder to classificate animals by cat, dog and others.
 
-```python
+```logstash
 filter {
-   mutate {
-      split => [ "[kindCd]" , " "]
-      add_field => { "kind" => "%{[kindCd][0]}" }
-      add_field => { "subkind" => "%{[kindCd][2]}" }
-      remove_field => "[kindCd]"
-   }
+mutate {
+        split => ["[weight]", "("]
+        add_field => { "weight_kg" => "%{[weight][0]}" }
+        remove_field => ["weight"]
+}
+mutate {
+        split => ["[kindcd]", " "]
+        add_field => { "kind" => "%{[kindcd][0]}" }
+        add_field => { "subKind" => "%{[kindcd][1]}" }
+        remove_field => ["kindcd"]
+}
+mutate {
+        split => ["[noticeno]", "-"]
+        add_field => { "noticeCity" => "%{[noticeno][0]}" }
+        }
+mutate {
+        join => { "[noticeno]" => "-" }
+}
+mutate {
+        remove_field => ["@version", "@timestamp"]
+}
 }
 ```
  
