@@ -215,43 +215,28 @@ mutate {
  <em>그림 2: logstash 결과 확인 </em>
 </p>
    
- 
-<h4 align="left"> 3.4: 파일 읽기 </h4>  
+<h4 align="left"> 3.4: 인덱스 매핑 </h4> 	
    
-  로그스태시 파이프라인을 작성할 때, input은 CSV 파일을 가져와야 하므로 파일 plugin을 사용한다. 
-Logstash에서 “logstash-abandonment.conf” 파일을 만들고 파이프라인을 작성한다.
-   
-<p align="center">
-  <img src=" Code/logstash-abandonment.conf.png" style="width:800px;"/>
-</p> 
-   
- <p align="center">     
-  <em>그림 2: logstash-abandonment.conf </em>
-</p>
-   
-* “date” 필터 플러그인을 사용해여 “2022-08-01”과 같이 “YYYY-MM-dd” 형식의 시간 포맷을 따로 문자열을 elasticsearch의 날짜/시간 타입으로 인덱싱 가능하도록 변경할 것이다. 
-* “split”: “kindCd” ([개] 믹스견)는 “[개]”와 “믹스견”으로 구분한다. 새로운 field는 [개]-kind이고 “믹스견”-subKind이라고 한다. 마찬가지로 “noticeNo”(충남-공주-2022-00001)는 “충남”-noticeCity 및 “공주-2022-00001”-notice.No으로 구분하여 새로운 field를 만든다.
-* “remove”: 불필요한 field를 삭제한다.
-   
-   
-   
-<h4 align="left"> 3.5: 인덱스 매핑 </h4> 	
-   
-* 인덱스를 생성하여 원하는 형태로 매핑해야 한다. 키바나 콘솔에서 “abdm-infor”인덱스를 만들면서 적용한다.
+* 인덱스를 생성하여 원하는 형태로 매핑해야 한다. 키바나 콘솔에서 **“abandonment-info”** 인덱스를 만들면서 적용한다.
    <p align="center">
-  <img src=" Images/abdm-info-mapping.PNG " style="width:500px;"/>
-</p> 
-   
-   
-<h4 align="left">
+  <img src=" Images/abandonment-info-mapping-code.PNG " style="width:500px;"/>
+</p>    
+<p align = "center">
+ <em>그림 3: mapping 코드 </em>
+</p>
 
-* 인덱스 탬플릿을 이용하여 인덱스를 맵핑한다. 인덱스 탬플릿을 이용하면 설정이 동일한 복수의 인덱스를 만들 때 유리한다. 인덱스 탬플릿을 만들기 위해 키바나 콘솔에서 다음 API를 요청한다.
-
+* "abandonment" 인덱스는 “abandonment-info” 인덱스 mapping으로 변경할 수 있기 위해 `_reindex` 를 이용한다.
  <p align="center">
-  <img src=" Code/abdm-for.png " style="width:500px;"/>
+  <img src=" Images/reindex.PNG " style="width:400px;"/>
 </p> 
-   
-   
+ <p align = "center">
+ <em>그림 4: reindex 코드 및 결과 확인 </em>
+</p>  
+
+  * 그 후에 "abandonment" 인덱스를 삭제한면 된다.
+   ```kibana
+   DELETE abandonment
+   ```
 <h4 align="left">4. 키바나에서 데이터를 분석  </h4>  
    
 <h4 align="left">4.1. 사용자가 원하는 항목을 선택기능 만든다  </h4>  
