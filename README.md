@@ -54,7 +54,11 @@ Email: naviteam24566@gmail.com
    * 우리 팀도 유기동물뿐만 아니라 모든 동물을 보호하기 위해서 도워주고 싶기 때문에 **유기동물의 정보를 관리하고자 웹사이트**를 개발하기로 했다. 또한 **"CHATBOT"** 성능을 활용하여 이메일이나 문자로 유기동물의 정보를 받을 수 있을 것이다.
    
  <h3 align="left"> II. 데이터 처리 및 분석 </h3>
+ We conduct getting data in 2 methods:
+ - Method 1: Use open API to download data by xml format, import data manually
+ - Method 2: Use code to download data to file and import these data into MySQL automatically. Here, we use logstash to bring data from MySQL into Kibana
  
+### A. Method 1
  <h4 align="left"> 1. 진행 방식  </h4>
  
 * Open data를 가져오기.
@@ -73,7 +77,85 @@ Email: naviteam24566@gmail.com
    이 링크에 원하는 날짜, 페이지 번호, 페이지당 보여줄 개수를 수정하고 **인증키**를 넣으면 된다
     
 * 다음 링크를 참여하고 기간은 2022년 8월 1일 ~ 2022년 8월 31일을 선정하기를 바란다. 다음 URL를 크릭하여 [Dashboard](http://20.196.202.9:5601/app/dashboards?fbclid=IwAR3vAB_ihpbIkgOUTpMecLi9ica7Jl8gYYn8LAzC2XNeacttw5p0Qj4ym4U#/view/ff67f180-2deb-11ed-9b19-23bc33f719e5?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-07-31T15:00:00.000Z',to:'2022-08-31T14:30:00.000Z')))  보여줄 것이다. <br>
-   
+ 
+ 
+ ### B. Method 2
+ 1. Input and format data
+ 
+ For each query from open API, we can get 1 page of 1000 rows data in one time. Our code download one by one page and append data into our MySQL database `Abandoment`
+ 
+ ***Input***
+ 
+ We use `sqlalchemy` library in Python to connect with our AWS server.
+  
+ ```python
+db_connection_str = 'mysql+pymysql://admin:i4GSOM8GCjRfDyV@vteam6.cbr4uubmqr4e.ap-northeast-2.rds.amazonaws.com/Abandoment'
+db_connection = create_engine(db_connection_str)
+conn = db_connection.connect()
+ ```
+ 
+ ***Format***
+ 
+ In the step of input, we format data before input into MySQL database. Use the format as in the instruction file (data.go.kr)
+ ```python
+ dtypesql = {'desertionNo':sqlalchemy.types.VARCHAR(15),
+            'filename':sqlalchemy.types.VARCHAR(100), 
+            'happenDt':sqlalchemy.Date(), #VARCHAR(8)
+            'kindCd':sqlalchemy.types.VARCHAR(50),
+            'colorCd':sqlalchemy.types.VARCHAR(30), 
+            'age':sqlalchemy.types.VARCHAR(30), 
+            'weight':sqlalchemy.types.VARCHAR(30),
+            'noticeNo':sqlalchemy.types.VARCHAR(30),
+            'noticeSdt':sqlalchemy.types.Date(), #VARCHAR(8)
+            'noticeEdt':sqlalchemy.types.Date(), #VARCHAR(8)
+            'popfile':sqlalchemy.types.VARCHAR(100),
+            'processState':sqlalchemy.types.VARCHAR(10),
+            'sexCd':sqlalchemy.types.VARCHAR(1),
+            'neuterYn':sqlalchemy.types.VARCHAR(1),
+            'specialMark':sqlalchemy.types.VARCHAR(200),
+            'careNm':sqlalchemy.types.VARCHAR(50),
+            'careTel':sqlalchemy.types.VARCHAR(14),
+            'careAddr':sqlalchemy.types.VARCHAR(200),
+            'orgNm':sqlalchemy.types.VARCHAR(50),
+            'chargeNm':sqlalchemy.types.VARCHAR(20),
+            'officetel':sqlalchemy.types.VARCHAR(14),
+            'noticeComment':sqlalchemy.types.VARCHAR(200),
+}
+df.to_sql(name='aug', con=db_connection, if_exists='append', index=False,dtype=dtypesql)
+ ```
+ 
+ 2. Push data from server to Kibanda by Logstash
+ 
+***Input***
+
+We already formated data so it's not necessary to format in Logstash
+
+```python
+input {
+   jdbc {
+      jdbc_driver_library => "/home/naviteam/.../mysql-connector-java-8.0.30.jar"
+      jdbc_driver_class => "com.mysql.cj.jdbc.Driver"
+      jdbc_connection_string => "jdbc:mysql://vteam6....:3306?Abandoment?characterEncoding=UTF-8&serverTimezone=UTC"
+      jdbc_user => "ID"
+      jdbc_password => "PASSWORD"
+      statement =>"SELECT * from aug"
+   }
+```
+***Filter***
+
+Here, we split `kindCd` field into `kind` and `subkind` in onder to classificate animals by cat, dog and others.
+
+```python
+filter {
+   mutate {
+      split => [ "[kindCd]" , " "]
+      add_field => { "kind" => "%{[kindCd][0]}" }
+      add_field => { "subkind" => "%{[kindCd][2]}" }
+      remove_field => "[kindCd]"
+   }
+}
+```
+ 
  <h4 align="left"> 3. 데이터 를 분석  </h4>
    
  <h4 align="left"> 3.1: Abandonment202208-.csv:  </h4>  
