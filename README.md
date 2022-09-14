@@ -58,8 +58,7 @@ Email: naviteam24566@gmail.com
  - Method 1: Use open API to download data by xml format, import data manually
  - Method 2: Use code to download data to file and import these data into MySQL automatically. Here, we use logstash to bring data from MySQL into Kibana
  
-### A. Method 1
- <h4 align="left"> 1. 진행 방식  </h4>
+<h4 align="left"> 1. 진행 방식  </h4>
  
 * Open data를 가져오기.
 * 데이터를 수정 및 import 하기.
@@ -78,7 +77,36 @@ Email: naviteam24566@gmail.com
     
 * 키바나에 접속하고 기간은 2022년 8월 1일 ~ 2022년 8월 31일을 선정하기를 바란다. 다음 URL를 크릭하여 [Dashboard 유기동물](http://20.196.212.72:5601/app/dashboards#/view/760f8820-3454-11ed-bf24-f7c87035bdbc?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2022-07-31T15:00:00.000Z',to:'2022-08-31T14:30:00.000Z')))  보여줄 것이다. <br>
  
+ <h4 align="left"> 3. 데이터 를 분석  </h4>
+   
+ <h4 align="left"> 3.1: 응답 메시지 명세:  </h4>  
+   동물보호관리시스템의 유기동물 정보 파일이다. 각 행의 정보는 다음과 같다.
+
+   <p align="center">
+ <img src="Images/abdm-table.PNG" style="width:500px;"/>
+</p>
+   
+   품종 “ []” 로 구분 ([개] 믹스견) 한다.  이 프로젝트에 나중에 이 품종을 [“[개]”, “믹스견”] 같이 배열로 저장하기 위해 구분 한 것이다. 마잔가치로 공고번호 “충남-공주-2022-00001”는 [“충남”, “공주-2022-00001”]로 구분할 것이다.
  
+<h4 align="left"> 3.2: Animal-center.csv:  </h4>  
+   
+  전국 동물보호센터 정보를 제공한다. 여러 행목이 있으나 Elastic Map Service 를 이용해서 표현하기 위한 “longitude”과 “latitude” 값을 이용하겠다. 그래서 필요한 정보만 수집하여 저장되었다. 다음 과 같다.
+   
+<p align="center">
+  <img src="Images/abdm-center-table.PNG" style="width:400px;"/>
+</p> 
+   
+ ### A. Method 1
+   먼저 “animal-center.csv”파일을 색인하겠다. 카바나의 Data Visualizer 의 파일 업로드 기능을 이용해서 색인한 것이다.
+위와 같이 키바나 기능을 이용하여 자동으로 “latitude” 과 “longitude”를 location (geo_point)으로 안다.
+   
+<p align="center">
+  <img src="Images/kibana-animal-center.png" style="width:300px;"/>
+</p>  
+ <p align="center">     
+  <em>그림 1: 전국 동물보호센터 정보 </em>
+</p>
+   
  ### B. Method 2
  1. Input and format data
  
@@ -187,36 +215,7 @@ mutate {
  <em>그림 2: logstash 결과 확인 </em>
 </p>
    
- <h4 align="left"> 3. 데이터 를 분석  </h4>
-   
- <h4 align="left"> 3.1: Abandonment202208-.csv:  </h4>  
-   동물보호관리시스템의 유기동물 정보 파일이다. 각 행의 정보는 다음과 같다.
-
-   <p align="center">
- <img src="Data/동물보호관리시스템의%20유기동물.png" style="width:500px;"/>
-</p>
-   
-   품종 “ []” 로 구분 ([개] 믹스견) 한다.  이 프로젝트에 나중에 이 품종을 [“[개]”, “믹스견”] 같이 배열로 저장하기 위해 구분 한 것이다. 마잔가치로 공고번호 “충남-공주-2022-00001”는 [“충남”, “공주-2022-00001”]로 구분할 것이다.
  
-<h4 align="left"> 3.2: Animal-center.csv:  </h4>  
-   
-  전국 동물보호센터 정보를 제공한다. 여러 행목이 있으나 Elastic Map Service 를 이용해서 표현하기 위한 “longitude”과 “latitude” 값을 이용하겠다. 그래서 필요한 정보만 수집하여 저장되었다. 다음 과 같다.
-   
-<p align="center">
-  <img src="Data/전국%20동물보호센터%20정보.png" style="width:400px;"/>
-</p> 
-
- <h4 align="left"> 3.3: 파일 색인  </h4>  
-  먼저 “animal-center.csv”파일을 색인하겠다. 카바나의 Data Visualizer 의 파일 업로드 기능을 이용해서 색인한 것이다.
-위와 같이 키바나 기능을 이용하여 자동으로 “latitude” 과 “longitude”를 location (geo_point)으로 안다.
-   
-<p align="center">
-  <img src="Data/전국%20동물보호센터%20정보1.png" style="width:300px;"/>
-</p>  
- <p align="center">     
-  <em>그림 1: 전국 동물보호센터 정보 </em>
-</p>
-   
 <h4 align="left"> 3.4: 파일 읽기 </h4>  
    
   로그스태시 파이프라인을 작성할 때, input은 CSV 파일을 가져와야 하므로 파일 plugin을 사용한다. 
