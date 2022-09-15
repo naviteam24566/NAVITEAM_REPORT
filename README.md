@@ -15,7 +15,7 @@ Email: naviteam24566@gmail.com
 | 황티타오 | hoangthao21921541@gmail.com | 010 - 5788 -1398 | 보고서 작성 및  웹사이트 |
 | 팜티궤느  | phamthiquenhu.inu@gmail.com | 010 - 4472 -1095 | 데이터, 프로그램 처리 및 분석|
 | 도트엉동 | truongdong.sju@gamil.com | 010 - 9751 -9606 | 프로그램 작성 및 debug |
-| 반광틴 | quangthinh.276@gmail.com | 010 - 2800 -2767 |  ChatBot |
+| 반광틴 | quangthinh.276@gmail.com | 010 - 2800 -2767 |  ChatBot, 프로그램 처리 |
 
    
 
