@@ -65,7 +65,7 @@ Email: naviteam24566@gmail.com
  - Method 1: Use open API to download data by xml format, import data manually
  - Method 2: Use code to download data to file and import these data into MySQL automatically. Here, we use logstash to bring data from MySQL into Kibana
   <p align="center">
-  <img src="Images/8월 유기동물 현황.PNG" style="width:400px;"/>
+  <img src="Images/진행방식.PNG" style="width:500px;"/>
 </p> 
  
 <h4 align="left"> 1. 진행 방식  </h4>
