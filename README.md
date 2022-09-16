@@ -14,10 +14,10 @@ Email: naviteam24566@gmail.com
 | 황반콰  | hoangkhoa21913388@gmail.com | 010 - 2388 - 1398 | 보고서,PPT 작성 및 웹사이트 |
 | 황티타오 | hoangthao21921541@gmail.com | 010 - 5788 -1398 | 보고서 작성 및  웹사이트 |
 | 팜티궤느  | phamthiquenhu.inu@gmail.com | 010 - 4472 -1095 | 데이터 분석, ELK |
-| 도트엉동 | truongdong.sju@gamil.com | 010 - 9751 -9606 | 프로그램 작성 및 debug, ELK  |
+| 도트엉동 | truongdong.sju@gamil.com | 010 - 9751 -9606 | 프로그램 작성 및 debug, ELK support |
 | 반광틴 | quangthinh.276@gmail.com | 010 - 2800 -2767 |  ChatBot, 프로그램 처리 |
 
-   
+각자 맡기는 역할을 자기 보고서 및 PPT 작성   
 
 <h3 align="left"> I. 유기동물 개념 및 현황 </h3>
 <h4 align="left"> 1. 유기동물 개념  </h4>
@@ -64,6 +64,9 @@ Email: naviteam24566@gmail.com
  We conduct getting data in 2 methods:
  - Method 1: Use open API to download data by xml format, import data manually
  - Method 2: Use code to download data to file and import these data into MySQL automatically. Here, we use logstash to bring data from MySQL into Kibana
+  <p align="center">
+  <img src="Images/8월 유기동물 현황.PNG" style="width:400px;"/>
+</p> 
  
 <h4 align="left"> 1. 진행 방식  </h4>
  
@@ -75,7 +78,7 @@ Email: naviteam24566@gmail.com
  <h4 align="left"> 2. 데이터 를 가져 오기  </h4>
    
 * 공공데이터 Open API 활용하여 CSV파일을 가져온다. [전국동물보호센터정보표준데이터](https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15025454)
-* 동물보호관리시스템 유기동물 조회 서비스: [공공데이터 URL](https://www.data.go.kr/data/15098931/openapi.do) 
+* [동물보호관리시스템 유기동물 조회 서비스](https://www.data.go.kr/data/15098931/openapi.do) 
    (농림축산식품부 농림축산검역본부_동물보호관리시스템 유기동물 조회 서비스)에 접속하고 조회를 할 수 있도록 **인증키**를 받아야 한다.
    
   *  http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?bgnde=20211201&endde=20211231&pageNo=1&numOfRows=10&serviceKey=인증키(URL Encode)
