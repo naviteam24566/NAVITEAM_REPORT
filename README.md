@@ -88,7 +88,7 @@ Email: naviteam24566@gmail.com
    동물보호관리시스템의 유기동물 정보 파일이다. 각 행의 정보는 다음과 같다.
 
    <p align="center">
- <img src="Images/abdm-table.PNG" style="width:500px;"/>
+ <img src="Images/abdm-table.PNG" style="width:400px;"/>
 </p>
    
    품종 “ []” 로 구분 ([개] 믹스견) 한다.  이 프로젝트에 나중에 이 품종을 [“[개]”, “믹스견”] 같이 배열로 저장하기 위해 구분 한 것이다. 마잔가치로 공고번호 “충남-공주-2022-00001”는 [“충남”, “공주-2022-00001”]로 구분할 것이다.
@@ -267,7 +267,7 @@ mutate {
 <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
 
 <p align="center">
- <img src="Images/품종별 접수건.png" style="width:400px;"/>
+ <img src="Images/품종별 접수건.png" style="width:300px;"/>
 </p>
 
 <p align="center">
@@ -308,7 +308,7 @@ mutate {
 <h4 align="left"> 4.7. 발견 도시별 접수 품종별 보호상태 히트맵 </h4>
    
 <p align="center">  
- <img src="Images/발견도시별 품종별 보호상태.PNG" style="width:700px;"/>
+ <img src="Images/발견도시별 품종별 보호상태.PNG" style="width:600px;"/>
 </p>
    
  <p align="center">     
