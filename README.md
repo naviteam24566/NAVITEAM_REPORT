@@ -304,7 +304,7 @@ mutate {
 여러 사람을 유기동물을 키우려고 하면 동물의 성별 및 중성화에 대해 고려하기 때문에 만들게 되었다.
  <h4 align="left"> 4.6. 나이와 체중 관계 </h4>
 <p align="center">
- <img src="Images/나이와 체종 관계.PNG" style="width:500px;"/>
+ <img src="Images/나이와 체종 관계.PNG" style="width:400px;"/>
 </p>
  <p align="center">     
   <em>그림 11:  나이와 체중 관계 </em>
@@ -313,7 +313,7 @@ mutate {
 <h4 align="left"> 4.7. 발견 도시별 접수 품종별 보호상태 히트맵 </h4>
    
 <p align="center">  
- <img src="Images/발견도시별 품종별 보호상태.PNG" style="width:700px;"/>
+ <img src="Images/발견도시별 품종별 보호상태.PNG" style="width:500px;"/>
 </p>
    
  <p align="center">     
@@ -342,7 +342,8 @@ mutate {
    
  <p align="center">     
   <em>그림 14: 전국동물보호센터 정보 조회 및 맵 </em>
-전국에 동물보호센터 정보 조회, 맵 및 히트맵을 제공한다. 히트맵을 통해 "인천, 울산, 경기"에서 동물보호센터가 많이 집중하는 것을 보인다.
+
+ 전국에 동물보호센터 정보 조회, 맵 및 히트맵을 제공한다. 히트맵을 통해 "인천, 울산, 경기"에서 동물보호센터가 많이 집중하는 것을 보인다.
    
     
 <h3 align="left"> III. 유기동물 관리 웹사이트 개발 프로세스 </h3>
