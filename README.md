@@ -275,7 +275,7 @@ mutate {
 <p align="center">
  <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
 </p>
-
+<img src="Images/품종별 접수건.png" style="width:500px;"/> <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
  <p align="center">     
   <em>그림 7: 품종별 접수건 및 일별 품종별 접수건 </em>
 </p>
