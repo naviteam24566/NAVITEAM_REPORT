@@ -14,10 +14,10 @@ Email: naviteam24566@gmail.com
 | 황반콰  | hoangkhoa21913388@gmail.com | 010 - 2388 - 1398 | 웹사이트 및 PPT 정리 |
 | 황티타오 | hoangthao21921541@gmail.com | 010 - 5788 -1398 | 웹사이트 |
 | 팜티궤느  | phamthiquenhu.inu@gmail.com | 010 - 4472 -1095 | 데이터 분석, ELK |
-| 도트엉동 | truongdong.sju@gamil.com | 010 - 9751 -9606 | 프로그램 작성 및 debug, ELK  |
+| 도트엉동 | truongdong.sju@gamil.com | 010 - 9751 -9606 | 프로그램 작성 및 ELK supporting  |
 | 반광틴 | quangthinh.276@gmail.com | 010 - 2800 -2767 |  MySQL, ChatBot, 프로그램 처리 |
 
-   
+* 각자 맡기는 역할을 자기 보고서 및 PPT 작성  
 
 <h3 align="left"> I. 유기동물 개념 및 현황 </h3>
 <h4 align="left"> 1. 유기동물 개념  </h4>
@@ -33,7 +33,7 @@ Email: naviteam24566@gmail.com
  * 유기동물이 늘어나면서 구조·보호 비용을 포함한 운영비도 많이 늘어났다. 
  * 2018년 동물보호센터 운영비는 전년의 155억 5000만원에 비해 28.9%가 증가한 200억 4000만원이 소요되었다.
   <p align="center">
- <img src="Images/8월 유기동물 현황.PNG" style="width:500px;"/>
+ <img src="Images/8월 유기동물 현황.PNG" style="width:600px;"/>
 </p>
  * OPEN API 활용하여 한국에서 유기동물 현황을 분석한다. 과정은 다음으로 참고하면 한다.
  2022년 8월에만 총 약 1만 유기동물을 접수했다. 이렇게 큰 숫자를 보니까 심각한 환황을 보인다. 평균 하루에 약 300건을 접수하고 그 중 주로 "개"와 "고양이"이 발견했다.
@@ -72,7 +72,7 @@ Email: naviteam24566@gmail.com
  <h4 align="left"> 2. 데이터 를 가져 오기  </h4>
    
 * 공공데이터 Open API 활용하여 CSV파일을 가져온다. [전국동물보호센터정보표준데이터](https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15025454)
-* 동물보호관리시스템 유기동물 조회 서비스: [공공데이터 URL](https://www.data.go.kr/data/15098931/openapi.do) 
+* [동물보호관리시스템 유기동물 조회 서비스](https://www.data.go.kr/data/15098931/openapi.do) 
    (농림축산식품부 농림축산검역본부_동물보호관리시스템 유기동물 조회 서비스)에 접속하고 조회를 할 수 있도록 **인증키**를 받아야 한다.
    
   *  http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?bgnde=20211201&endde=20211231&pageNo=1&numOfRows=10&serviceKey=인증키(URL Encode)
@@ -107,9 +107,6 @@ Email: naviteam24566@gmail.com
 <p align="center">
   <img src="Images/kibana-animal-center.png" style="width:300px;"/>
 </p>  
- <p align="center">     
-  <em>그림 1: 전국 동물보호센터 정보 </em>
-</p>
    
  ### B. Method 2
  1. Input and format data
@@ -183,7 +180,7 @@ input {
 filter를 이용하여 원하는 대로 데이터를 선정한다.
    * 첫째, `weight` field에서 체종만 필요하기 때문에 split를 이용하고 `weight_kg`이란 새로운 field를 생성하여 체종만 넣었다. 
    * 둘째, 위와 같이 품종별 잘 분석하기 위해 `kindcd` field([개] 믹스견)는 `kind` ([개]) 및 `subKind` (믹스견)으로 구분한다.
-   * 셌째, 발견 도시를 알아보도록 `noticeno` field에서 `noticeCity` (인천, 서울,...)를 생성한다.
+   * 째, 발견 도시를 알아보도록 `noticeno` field에서 `noticeCity` (인천, 서울,...)를 생성한다.
    * 넷째, 필요없는 field를 삭제하기 위해 "remove_field" 이용한다.
 
 ```logstash
@@ -216,7 +213,7 @@ mutate {
  <img src="Images/logstash-3.PNG" style="width:500px;"/>
 </p>
 <p align = "center">
- <em>그림 2: logstash 결과 확인 </em>
+ <em>그림 1: logstash 결과 확인 </em>
 </p>
    
 <h4 align="left"> 3.4: 인덱스 매핑 </h4> 	
@@ -226,7 +223,7 @@ mutate {
   <img src=" Images/abandonment-info-mapping-code.PNG " style="width:300px;"/>
 </p>    
 <p align = "center">
- <em>그림 3: mapping 코드 </em>
+ <em>그림 2: mapping 코드 </em>
 </p>
 
 * "abandonment" 인덱스는 “abandonment-info” 인덱스 mapping으로 변경할 수 있기 위해 `_reindex` 를 이용한다.
@@ -234,7 +231,7 @@ mutate {
   <img src=" Images/reindex.PNG " style="width:400px;"/>
 </p> 
  <p align = "center">
- <em>그림 4: reindex 코드 및 결과 확인 </em>
+ <em>그림 3: reindex 코드 및 결과 확인 </em>
 </p>  
 
   * 그 후에 "abandonment" 인덱스를 삭제한면 된다.
@@ -252,7 +249,7 @@ mutate {
 </p> 
    
  <p align="center">     
-  <em>그림 5. 사용자가 원하는 항목을 선택기능 </em>
+  <em>그림 4. 사용자가 원하는 항목을 선택기능 </em>
 </p>
 일반적으로 사용자가 관심을 가지는 "도시, 품종, 성별, 중성화, 보호상태" 학목을 편리하게 선택하기 위해 이 기능을 만든다. 선택을 안 하면 전체 데이터가 나오고 선택 시 선택 항목과 관련 데이터만 나온다.  
 <h4 align="left"> 4.2. 유기동물 정보 조회 </h4>
@@ -263,7 +260,7 @@ mutate {
 </p>
    
  <p align="center">     
-  <em>그림 6: 유기동물 library </em>
+  <em>그림 5: 유기동물 library </em>
 </p>
 주요 필요한 항목을 필드하며 사용자가 쉽게 정보를 조회할 수 있다.
 <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
@@ -277,7 +274,7 @@ mutate {
 </p>
 
  <p align="center">     
-  <em>그림 7: 품종별 접수건 및 일별 품종별 접수건 </em>
+  <em>그림 6: 품종별 접수건 및 일별 품종별 접수건 </em>
 </p>
 이 그래프를 통해서 주요 접수 유기동물은 "개"와 "고양이"를 보인다. 그 중에 "개"는 68.58% 가장 높게 나타나고 뒤로 "고양이"가 30.12%를 차지한다. 
 일별에 각 품목 접수건을 조회할 수 있도록 그래프를 생성했다. 각 품종별 해당 색상을 만들어 쉽게 보인다.
@@ -287,7 +284,7 @@ mutate {
  <img src="Images/주요 품종 색상 특징.PNG" style="width:800px;"/>
 </p>
  <p align="center">     
-  <em>그림 8:  주요접수 품종, 색상 및 특징 </em>
+  <em>그림 7:  주요접수 품종, 색상 및 특징 </em>
 </p>
 주요접수 품종, 색상 및 특징을 표시한다. 수량이 작을 수록 글 사이즈가 작아졌다. 위화 같이 "선택 항목"이 생기면 선택대로 바꿀 것이다.
    <h4 align="left"> 4.5. 성별과 중성화 관계 </h4>
@@ -296,7 +293,7 @@ mutate {
 </p>
 
  <p align="center">     
-  <em>그림 9:  성별과 중성화 관계 </em>
+  <em>그림 8:  성별과 중성화 관계 </em>
 </p>
 여러 사람을 유기동물을 키우려고 하면 동물의 성별 및 중성화에 대해 고려하기 때문에 만들게 되었다.
  <h4 align="left"> 4.6. 나이와 체중 관계 </h4>
@@ -304,9 +301,9 @@ mutate {
  <img src="Images/나이와 체종 관계.PNG" style="width:500px;"/>
 </p>
  <p align="center">     
-  <em>그림 10:  나이와 체중 관계 </em>
+  <em>그림 9:  나이와 체중 관계 </em>
 </p>
-   보다시피 접수 중 주요 2022년생 동물이다. 그리고 사용자마다 욕구가 달라기 때문에 이 기능을 만들었다. 어떤 사용자가 젊고 작은 동물을 좋아하지만 좀 큰 동물을 좋아하는 사용자도 있다. 그래서 사용자가 원하는 나이와 체종을 클릭하면 정보가 나온다. 
+   보다시피 접수 중 주요 2022년생 동물이다. 그리고 사용자마다 욕구가 달라서 이 기능을 만들었다. 어떤 사용자가 젊고 작은 동물을 좋아하지만 좀 큰 동물을 좋아하는 사용자도 있다. 그래서 사용자가 원하는 나이와 체종을 클릭하면 정보가 나온다. 
 <h4 align="left"> 4.7. 발견 도시별 접수 품종별 보호상태 히트맵 </h4>
    
 <p align="center">  
@@ -314,16 +311,16 @@ mutate {
 </p>
    
  <p align="center">     
-  <em>그림 11: 발견 도시별 접수 품종별 보호상태 히트맵 </em>
+  <em>그림 10: 발견 도시별 접수 품종별 보호상태 히트맵 </em>
 </p>
- 전체적으로 보면 위와 같이 동일 결과는 모든 도시에서 "개"가 가장 많이 발견되었다. 그 중에 "경기도"에서 제일 높게 나타나며 뒤로 "경남"과 "전남" 등을 밝아지는 색상대로 수량이 작아진다. 주로 "보호중"상태이다.
+ 전체적으로 보면 위와 같이 동일 결과는 모든 도시에서 "개"가 가장 많이 발견되었다. 그 중에 "경기도"에서 제일 높게 나타나며 뒤로 "경남"과 "전남" 등을 밝아지는 색상대로 수량이 진다. 주로 "보호중"상태이다.
 <h4 align="left"> 4.8. 보호소별 보호상태 및 품종별 </h4>
 <p align="center">
  <img src="Images/보호소별 보호소 상태.PNG" style="width:550px;"/>
 </p>
      
  <p align="center">     
-  <em>그림 12: 보호소별 보호상태  </em>
+  <em>그림 11: 보호소별 보호상태  </em>
 </p>
  
  히트맵을 통해 전국에 큰 도시에서 “보호중” 상태 유기 둥물을 제일 많이 차지하고 있다. 색상이 밝을수록 건수가 적다. "종료" 상태도 많으나 "안락사" 및 "자연사"원인으로 종료한다. 그래서 유기동물을 빨리 입양하고 좋은 주인을 만날 수 있도록 대안을 만들어야 한다.  
@@ -338,8 +335,8 @@ mutate {
 </p>
    
  <p align="center">     
-  <em>그림 13: 전국동물보호센터 정보 조회 및 맵 </em>
-전국에 동물보호센터 정보 조회, 맵 및 히트맵을 제공한다. 히트맵을 통해 "인천, 울산, 경기"에서 동물보호센터가 많이 집중하는 것을 보인다.
+  <em>그림 12: 전국동물보호센터 정보 조회 및 맵 </em>
+  전국에 동물보호센터 정보 조회, 맵 및 히트맵을 제공한다. 히트맵을 통해 "인천, 울산, 경기"에서 동물보호센터가 많이 집중하는 것을 보인다.
    
     
 <h3 align="left"> III. 유기동물 관리 웹사이트 개발 프로세스 </h3>
