@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/app.css">
+  <title>HOANG KHOA</title>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <nav class="container">
+        <a href="" id="logo">
+          <img src="images/logo.png" alt="HOANG KHOA">
+        </a>
+
+       <ul id="main-menu">
+          <li><a href="">홈</a></li>
+          
+          <li><a href="">동물입양</a>
+            <ul class="sub-menu">
+              <li><a href="/animal.page/animalList.html" target="blank">동물점보</a></li>
+              <li><a href="">무료입양</a></li>      
+            </ul> 
+          </li> 
+
+          <li><a href="">서비스 센터</a>
+            <ul class="sub-menu">
+              <li><a href="">호텔</a></li>
+              <li><a href="">마사지</a></li>
+            </ul> 
+          </li>
+
+          <li><a href="">쇼핑</a></li>
+          
+          <li><a href="">클리닉</a></li>
+
+          <li><a href="">지도</a>
+            <ul class="sub-menu">
+              <li><a href="">보호소 </a></li>
+              <li><a href="">동물병원 </a></li>
+            </ul>
+          </li>
+       </ul>
+     </nav>
+    
+     </div>
+    </div>
+    
+   <script src="https://code.jquery.com/jquery-3.6.1.js" ></script>
+   <script>
+      $(document).ready(function() {
+      $('.sub-menu').parent('li').addClass('has-child');
+      });
+   </script> 
+   
+   
+   
+ 
+
+  <div id="main">
+    <div id="left">
+      <ul>
+        <li>        
+             <img src ="images/1.png"  target="_blank"></a>    
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id="main">
+    <div id="leftbox">
+      <ul>
+        <li>    
+             <img src="images/2.png"  target="_blank"></a>  
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="main">
+    <div id="leftboxboy">
+      <ul>
+        <li>    
+             <img src="images/3.png"  target="_blank"></a>  
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id="main">
+    <div id="leftboxboygirl">
+      <ul>
+        <li>    
+             <img src="images/4.png"  target="_blank"></a>  
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="footerMenu_wrap">
+    <div id="footerMenu">
+      <ul>
+        <li class="First">
+          <a href="">황반콰</a>
+        </li>
+        <li class="First">
+          <a href="">황티타오</a>
+        </li>
+        <li class="First">
+          <a href="">팜티궤느 </a>
+        </li>
+        <li class="First">
+          <a href="">도트엉동</a>
+        </li>
+        <li class="First">
+          <a href=""> 반광틴</a>
+        </li>
+        <h2> <img src="images/logo.png" alt=""></h2>
+      </ul>
+    </div>
+  </div>
+  <div id="backtop">
+    <i class="fa-solid fa-chevron-up"></i>
+  </div>
+
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function() {
+       $(window).scroll(function() {
+            if($(this).scrollTop()) {
+               $('#backtop').fadeIn();
+             } else {
+               $('#backtop').fadeOut();
+            }
+        
+ 
+        });
+        $('#backtop').click(function(){
+           $('html, body').animate({
+              scrollTop: 0
+            },500);
+
+        });
+    });
+  </script>
+</html>
