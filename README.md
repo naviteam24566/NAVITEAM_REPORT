@@ -391,7 +391,7 @@ mutate {
  <em>그림 5,6: 유기동물 뉴스 바의 코드 및 인터페이스 </em>
 </p>
       
-<h4 align="left"> 3.4. 유기동물 비디오 - 코딩</h4>
+<h4 align="left"> 3.4. 유기동물 비디오</h4>
    
 <p align="center">
  <img src="Website/Picture7.png" style="width:800px;"/>
@@ -405,7 +405,7 @@ mutate {
  <em>그림 7,8: 유기동물 비디오 바의 코드 및 인터페이스 </em>
 </p>
       
-<h4 align="left"> 3.5. 동물정보 - 코딩</h4>
+<h4 align="left"> 3.5. 동물정보</h4>
    
 <p align="center">
  <img src="Website/Picture9.png" style="width:800px;"/>
@@ -422,7 +422,7 @@ mutate {
  <em>그림 3,4: 동물정보 바의 코드 및 인터페이스 </em>
 </p>
       
-   <h4 align="left"> 3.6. 동물입양하기 - 코딩</h4>
+   <h4 align="left"> 3.6. 동물입양하기</h4>
    
 <p align="center">
  <img src="Website/Picture12.png" style="width:800px;"/>
@@ -433,7 +433,7 @@ mutate {
 </p>
    
          
-   <h4 align="left"> 3.7. 호텔 - 코딩</h4>
+   <h4 align="left"> 3.7. 호텔 </h4>
    
 <p align="center">
  <img src="Website/Picture14.png" style="width:800px;"/>
@@ -444,7 +444,7 @@ mutate {
 </p>
    
          
- <h4 align="left"> 3.8. 마사지방법 - 코딩</h4>
+ <h4 align="left"> 3.8. 마사지방법</h4>
    
 <p align="center">
  <img src="Website/Picture16.png" style="width:800px;"/>
@@ -454,7 +454,7 @@ mutate {
  <img src="Website/Picture17.png" style="width:800px;"/>
 </p>
    
- <h4 align="left"> 3.9. 강아지건강검진 - 코딩</h4>
+ <h4 align="left"> 3.9. 강아지건강검진</h4>
    
 <p align="center">
  <img src="Website/Picture18.png" style="width:800px;"/>
@@ -464,7 +464,7 @@ mutate {
  <img src="Website/Picture19.png" style="width:800px;"/>
 </p>
    
- <h4 align="left"> 3.10. 종별 특이… - 코딩</h4>
+ <h4 align="left"> 3.10. 종별 특이</h4>
    
 <p align="center">
  <img src="Website/Picture20.png" style="width:800px;"/>
@@ -474,7 +474,7 @@ mutate {
  <img src="Website/Picture21.png" style="width:800px;"/>
 </p>
    
-  <h4 align="left"> 3.11. 동물보호소지도 - 코딩</h4>
+  <h4 align="left"> 3.11. 동물보호소지도</h4>
    
 <p align="center">
  <img src="Website/Picture22.png" style="width:800px;"/>
@@ -484,7 +484,7 @@ mutate {
  <img src="Website/Picture23.png" style="width:800px;"/>
 </p>
    
-  <h4 align="left"> 3.12. 동물병원 - 코딩</h4>
+  <h4 align="left"> 3.12. 동물병원</h4>
    
 <p align="center">
  <img src="Website/Picture24.png" style="width:800px;"/>
