@@ -17,7 +17,8 @@ Email: naviteam24566@gmail.com
 | 도트엉동 | truongdong.sju@gamil.com | 010 - 9751 -9606 | 프로그램 작성 및 ELK supporting  |
 | 반광틴 | quangthinh.276@gmail.com | 010 - 2800 -2767 |  MySQL, ChatBot, 프로그램 처리 |
 
-* 각자 맡기는 역할을 자기 보고서 및 PPT 작성  
+
+각자 맡기는 역할을 자기 보고서 및 PPT 작성  
 
 <h3 align="left"> I. 유기동물 개념 및 현황 </h3>
 <h4 align="left"> 1. 유기동물 개념  </h4>
@@ -33,7 +34,7 @@ Email: naviteam24566@gmail.com
  * 유기동물이 늘어나면서 구조·보호 비용을 포함한 운영비도 많이 늘어났다. 
  * 2018년 동물보호센터 운영비는 전년의 155억 5000만원에 비해 28.9%가 증가한 200억 4000만원이 소요되었다.
   <p align="center">
- <img src="Images/8월 유기동물 현황.PNG" style="width:600px;"/>
+ <img src="Images/8월 유기동물 현황.PNG" style="width:700px;"/>
 </p>
  * OPEN API 활용하여 한국에서 유기동물 현황을 분석한다. 과정은 다음으로 참고하면 한다.
  2022년 8월에만 총 약 1만 유기동물을 접수했다. 이렇게 큰 숫자를 보니까 심각한 환황을 보인다. 평균 하루에 약 300건을 접수하고 그 중 주로 "개"와 "고양이"이 발견했다.
@@ -266,11 +267,11 @@ mutate {
 <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
 
 <p align="center">
- <img src="Images/품종별 접수건.png" style="width:500px;"/>
+ <img src="Images/품종별 접수건.png" style="width:400px;"/>
 </p>
 
 <p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
+ <img src="Images/일별 품종별 접수건.png" style="width:400px;"/>
 </p>
 
  <p align="center">     
