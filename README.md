@@ -358,11 +358,11 @@ mutate {
 <p align="center">
  <img src="Website/Picture2.png" style="width:800px;"/>
 </p>
- <p align = "center">
-
+ 
 <p align="center">
  <img src="Website/Picture1.png" style="width:800px;"/>
 </p>
+<p align = "center">
  <em>그림 1,2: 웹사이트의 메뉴 코드 및 인터페이스 </em>
 </p>
    
@@ -375,7 +375,7 @@ mutate {
 <p align="center">
  <img src="Website/Picture3.png" style="width:800px;"/>
 </p>
-</p>
+<p align = "center">
  <em>그림 3,4: 동물서비스센터 바의 코드 및 인터페이스 </em>
 </p>
 <h4 align="left"> 3.3. 유기동물 뉴스</h4>
@@ -387,7 +387,7 @@ mutate {
 <p align="center">
  <img src="Website/Picture6.png" style="width:800px;"/>
 </p>
-</p>
+<p align = "center">
  <em>그림 5,6: 유기동물 뉴스 바의 코드 및 인터페이스 </em>
 </p>
       
@@ -401,7 +401,7 @@ mutate {
  <img src="Website/Picture8.png" style="width:800px;"/>
 </p>
 
-</p>
+<p align = "center">
  <em>그림 7,8: 유기동물 비디오 바의 코드 및 인터페이스 </em>
 </p>
       
@@ -415,10 +415,10 @@ mutate {
  <img src="Website/Picture10.png" style="width:800px;"/>
 </p>
    
-  <p align="center">
+<p align="center">
  <img src="Website/Picture11.png" style="width:800px;"/>
 </p>
-</p>
+<p align = "center">
  <em>그림 3,4: 동물정보 바의 코드 및 인터페이스 </em>
 </p>
       
