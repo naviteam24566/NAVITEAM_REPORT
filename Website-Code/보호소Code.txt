@@ -1,0 +1,105 @@
+<div id="main">
+    <div id="left">
+           <h2 class="title-box-left ">동물보호소지도 </h2>
+         <ul>
+           <li>
+             <a href="html/about.html"></a>
+             <a href="https://www.ijoa.co.kr/"  target="_blank"></a>
+
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d827826.0267117177!2d128.11403355505323!3d35.85647142426253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568c6b20e35a9cf%3A0x847589dce856a3fe!2zKOyCrOuLqCnsnKDquLDrj5nrrLzrsI_rj5nrrLzrs7TtmLjqtIDrpqztmJHtmow!5e0!3m2!1sen!2skr!4v1663067445552!5m2!1sen!2skr" 
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+             </iframe>
+        
+             <h1>(사단)유기동물및동물보호관리협회</h1>
+             <h3>
+                - 주소: 부산광역시 강서구 봉림동 147-28<br>
+                - 전화번호: 0519716208  <br>
+             </h3>
+           </li>
+
+           <li>
+             <a href="html/about.html"></a>
+             <a href="https://www.ijoa.co.kr/"  target="_blank"></a>
+
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3208.947911472071!2d127.3808493152128!3d36.45881508002041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ab35759eb49f9%3A0x4e667dc771de408c!2z64yA7KCE6rSR7Jet7IucIOuPmeusvOuztO2YuOyEvO2EsA!5e0!3m2!1sen!2skr!4v1663067608801!5m2!1sen!2skr" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+             </iframe>
+     
+             <h1> 대전광역시 동물보호센터</h1>
+             <h3>
+                - 주소: 대전광역시 유성구 금남구즉로 1234<br>
+                - https://www.daejeon.go.kr/ani/index.do <br>
+                - 전화번호: 0428251118   <br>
+             </h3>
+           </li>
+         </ul>
+    </div>
+  </div>
+
+
+  <div id="main">
+    <div id="leftbox">
+      <ul>
+        <li>
+             <a href="html/about.html"></a>
+             <a href="https://www.ijoa.co.kr/"  target="_blank"></a>
+
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.358278259337!2d126.8794782151778!3d35.22245028030372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35718df1ac6d2dd9%3A0xf148eebc481be967!2sGwangju%20Metropolitan%20City%20Animal%20Shelter!5e0!3m2!1sen!2skr!4v1663067749446!5m2!1sen!2skr" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+             </iframe>
+
+             <h1>광주 동물보호소</h1>
+             <h3>
+                - 주소: 광주광역시 북구 본촌동 본촌마을길 27<br>
+                - http://www.kcanimal.or.kr/ <br>
+                - 전화번호: 0625712808   <br>
+             </h3>
+        </li>
+
+        <li>
+             <a href="html/about.html"></a>
+             <a href="https://www.ijoa.co.kr/"  target="_blank"></a>
+
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d835140.0477572659!2d125.73685653125004!3d35.14999099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3571895b32f0a6df%3A0x6e4bd2a81203fea7!2z67Kg7Iqk7Yq464-Z66y867OR7JuQ!5e0!3m2!1sen!2skr!4v1663067826365!5m2!1sen!2skr" 
+                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+             </iframe>
+
+             <h1> 베스트동물병원</h1>
+             <h3>
+             - 주소: 광주광역시 서구 쌍촌동 975-4<br>
+             - 전화번호: 0623755110 <br>
+            </h3>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id="footerMenu_wrap">
+    <div id="footerMenu">
+      <ul>
+        <li class="First">
+          <a href="">황반콰</a>
+        </li>
+        <li class="First">
+          <a href="">황티타오</a>
+        </li>
+        <li class="First">
+          <a href="">팜티궤느 </a>
+        </li>
+        <li class="First">
+          <a href="">도트엉동</a>
+        </li>
+        <li class="First">
+          <a href=""> 반광틴</a>
+        </li>
+        <h2> <img src="images/logo.png" alt=""></h2>
+      </ul>
+    </div>
+  </div>
+
+  <div id="backtop">
+    <i class="fa-solid fa-chevron-up"></i>
+</div>
+
+</body>
