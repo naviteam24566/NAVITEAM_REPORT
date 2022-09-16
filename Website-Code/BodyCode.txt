@@ -1,0 +1,169 @@
+ <h3 class="title-box-text-center">동물 서비스 센터</h3>
+  
+    <div class="services-box">
+      <div class="row">
+        <ul class="icon">
+         <li>
+            <div class="col-lg-3 col -md-6">
+              <div class="sv-item mb-4">
+                <div class="sv-image">
+                  <img src="https://mypet.vn/wp-content/themes/mypet/assets/images/iconHotel@2x.png">
+                </div>
+                <h3 class="sv-title">호텔</h3>
+              </div>
+            </div>
+         </li>
+         <li>
+            <div class="col-lg-3 col -md-6">
+              <div class="sv-item mb-4">
+                <div class="sv-image">
+                  <img height="360px" width="360px" src="https://mypet.vn/wp-content/themes/mypet/assets/images/iconSpa@2x.png">
+                </div>
+                <h3 class="sv-title">마사지</h3>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="col-lg-3 col -md-6">
+              <div class="sv-item mb-4">
+                <div class="sv-image">
+                  <img height="440px" width="440px" src="https://mypet.vn/wp-content/themes/mypet/assets/images/iconVet@2x.png">
+                </div>
+                <h3 class="sv-title">클리닉</h3>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="col-lg-3 col -md-6">
+              <div class="sv-item mb-4">
+                <div class="sv-image">
+                  <img src="https://mypet.vn/wp-content/themes/mypet/assets/images/iconShop@2x.png">
+                </div>
+                <h3 class="sv-title">쇼핑</h3>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="main">
+    <div id="left">
+      <h3 class="title-box-left ">유기동물 뉴스</h3>
+      <ul>
+        <li>
+          <a href="html/about.html"></a>
+          <a href="https://newsis.com/view/?id=NISX20220912_0002009712&cID=10814&pID=10800"  target="_blank">
+               <img src="images/NISI20220704_0001034123_web.jpg" alt="">
+          </a>
+          <h1>1. 울산 남구, 유기동물 입양 활성화 지원</h1>
+          <p>- 유실·유기동물을 입양한 사람은 입양시 소요되는 진료비 등 총 비용의 60%, 마리당 최대 15만원을 지원받을 수 있다.<br>
+             - 입양비 지원 신청은 입양일로부터 6개월 이내에 남구청 경제정책과로 신청 가능하며, 인당 3마리까지 지원된다.
+          </p>
+        </li>
+
+        <li>
+          <a href="html/about.html"></a>
+          <a href="https://www.khan.co.kr/economy/market-trend/article/202209101300011"  target="_blank">
+             <img src="images/dkjaf-795x436.jpg" alt="">
+          </a>
+          <h1>2. 엄마 - 아빠 어디 가요? 가족이라면서요..</h1>
+          <p>- 농림축산식품부가 2019년부터 2021년까지 3년간 집계한 유기(일부러 버리는 것)·유실(분실하는 것) 동물은 38만2907마리로 나타났다.<br> 
+             - 연평균 12만7635마리가 주인에게 버려지거나 주인을 잃어버리게 된다는 얘기다.
+          </p>
+        </li>
+     </ul>
+    </div>
+  </div>
+
+  <div id="main">
+      <div id="right">  
+        <ul>
+         <li>
+            <a href="html/about.html"></a>
+            <a href="https://www.animalplanet.co.kr/contents/?artNo=18457"  target="_blank">
+              <img src="images/z2e3jux6onnn7i683c7b.jpg" alt="">
+            </a>
+            <h1>3. 서울시 작년에 버려진 유기동물 6578마리 15.8% 가족 못 찾고 "안락사" 됐다.</h1>
+            <p>- 작년 서울시에서 버려진 유기동물은 6.578마리로 나타났습니다.<br>
+               - 이중 35.4%인 2.260마리가 입양이나 기증됐고 15.8%인 1.007마리인 1.007마리는 안락사됐고 하는데요..</p>
+         </li>
+ 
+         <li>
+           <a href="html/about.html"></a>
+           <a href="https://mypet.vn/cach-cham-soc-meo-sau-khi-mua-tai-cho-tot-thu-cung/"  target="_blank">
+              <img src="images/ds23.jpg" alt="">
+            </a>
+            <h1>4. 유기동물 관련 200억대 예산 들여도 매년 13만마리 거리에 버려진다</h1>
+            <p>- 지난 2014년부터 반려동물등록제도가 의무화가 됐지만<br>
+               - 추산되는 국내 반려견 600만 마리 가운데 지방자치단체에 등록된 수는 232만마리로 절반에도 미치지 않는 실정이다.
+               .</p>
+         </li>
+        </ul>
+      </div>
+  </div>
+
+
+
+  <div id="main">
+    <div id="left-box">
+      <h3 class="title-box-left ">유기동물 비디오</h3>
+      <ul>
+        <li>
+          <a href="html/about.html"></a>
+          <a href="https://www.youtube.com/watch?v=we9qyoE3mcY"  target="_blank">
+               <img src="images/r23r.png" alt="">
+          </a>
+          <h1> 다리 잃고 절뚝절뚝…반려동물 유기, 하루에 370마리..!!</h1>
+          
+          
+        </li>
+
+        <li>
+          <a href="html/about.html"></a>
+          <a href="https://www.youtube.com/watch?v=VKcBbcrUNnk"  target="_blank">
+             <img src="images/kjhzkc.png" alt="">
+          </a>
+          <h1> 정체를 알 수 없는 농장에 갇혀버린 강아지들..!! </h1>
+        </li>
+
+        <li>
+          <a href="html/about.html"></a>
+          <a href="https://www.youtube.com/watch?v=sieXiZLQszE"  target="_blank">
+             <img src="images/423.png" alt="">
+          </a>
+          <h1> 세상에 나쁜 개는 없다 ..!!</h1>
+          
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id="footerMenu_wrap">
+    <div id="footerMenu">
+      <ul>
+        <li class="First">
+          <a href="">황반콰</a>
+        </li>
+        <li class="First">
+          <a href="">황티타오</a>
+        </li>
+        <li class="First">
+          <a href="">팜티궤느 </a>
+        </li>
+        <li class="First">
+          <a href="">도트엉동</a>
+        </li>
+        <li class="First">
+          <a href=""> 반광틴</a>
+        </li>
+        <h2> <img src="images/logo.png" alt=""></h2>
+      </ul>
+    </div>
+  </div>
+
+
+           
+</body>
