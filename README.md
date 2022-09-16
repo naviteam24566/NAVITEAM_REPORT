@@ -353,7 +353,7 @@ mutate {
 * 유기동물 정보에 대한 데이터에 의하고 Visual Studio Code를 통하여 웹사이트의 각 성분을 디자인하기 위해서 코딩했다.
  
  <h4 align="left">3. 웹사이트 구축</h4>
- <h4 align="left"> 3.1 Menu - 코딩 </h4>
+ <h4 align="left"> 3.1. Menu - 코딩 </h4>
   
 <p align="center">
  <img src="Website/Picture2.png" style="width:800px;"/>
@@ -363,7 +363,7 @@ mutate {
  <img src="Website/Picture1.png" style="width:800px;"/>
 </p>
    
-<h4 align="left"> 3.2 동물서비스 센터 - 코딩 </h4>
+<h4 align="left"> 3.2. 동물서비스 센터 - 코딩 </h4>
    
 <p align="center">
  <img src="Website/Picture4.png" style="width:800px;"/>
