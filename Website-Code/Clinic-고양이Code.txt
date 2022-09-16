@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/app.css">
+  <title>HOANG KHOA</title>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <nav class="container">
+        <a href="" id="logo">
+          <img src="images/299920600_1750135972009193_5076994758424759449_n.png" alt="HOANG KHOA">
+        </a>
+
+       <ul id="main-menu">
+          <li><a href="">홈</a></li>
+          
+          <li><a href="">동물입양</a>
+            <ul class="sub-menu">
+              <li><a href="/animalProfile/index.html" target="_blank">동물점보</a></li>
+              <li><a href="/animal-adopt/index.html" target="_blank">무료입양</a></li>      
+            </ul> 
+          </li> 
+
+          <li><a href="">서비스 센터</a>
+            <ul class="sub-menu">
+              <li><a href="/Hotell/index.html" target="_blank">호텔</a></li>
+              <li><a href="">마사지</a></li>
+            </ul> 
+          </li>
+
+          <li><a href="">쇼핑</a></li>
+          
+          <li><a href="">클리닉</a></li>
+
+          <li><a href="">지도</a>
+            <ul class="sub-menu">
+              <li><a href="/MenuWeb/add-google -map/index.html" target="_blank">보호소 </a></li>
+              <li><a href="/MenuWeb/hospital center/index.html" target="_blank">동물병원 </a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    
+    </div>
+  </div>
+    
+   <script src="https://code.jquery.com/jquery-3.6.1.js" ></script>
+   <script>
+      $(document).ready(function() {
+      $('.sub-menu').parent('li').addClass('has-child');
+      });
+   </script> 
+   
+   
+   <div id="mainboy">
+    <div id="leftboy">
+
+      <h3 class="title-box-leftboy ">고양이 건강검진</h3>
+      <ul> 
+        <li>       
+            <a href="">
+               <img src="images/1.jpg" alt=""></a>
+                         
+              <h3>
+                고양이들은 섬세한 성격을 가진 반려 동물이어서 질환이 발생하면서 생기는 변화를 보호자분이 알아채기가 무척이나 어렵습니다.<br><br>
+                따라서 건강검진을 정기적으로 받아 질병을 조기 진단하고 관리 하는 것이 건강하게 오래 살 수 있는 최선의 방법입니다.<br><br>
+                건강 검진은 고양이의 나이, 종(breed), 병력(medical history)에 따른 검진 항목에 대해 보호자분만 오셔서
+                상담을 먼저 받으시고, 예약된 검진일에 검진을 받으신 후, 추후 검진 결과를 상담을 하고 있습니다.<br>
+              </h3>
+        </li>        
+     </ul>
+    </div>
+  </div>
+
+  <div id="main">
+    <div id="left">
+      <h3 class="title-box-left ">종별 특이적 중점 관찰 체크 리스트</h3>
+      <ul> 
+        <li>       
+            <a href="">
+               <img src="images/2.jpg" alt=""></a>
+            
+              <h1>2. 아비시니안</h1>
+        
+        </li>
+
+        <li>
+           <a href="">
+            <img src="images/3.jpg" alt=""></a>
+         
+           <h1>1.뱅갈</h1>        
+        </li>
+     </ul>
+    </div>
+  </div>
+
+  <div id="mainbot">
+    <div id="leftbot">
+      <ul> 
+        <li>       
+            <a href="">
+               <img src="images/4.jpg" alt=""></a>
+            
+              <h1>4. 페르시안</h1>       
+        </li>
+
+        <li>
+           <a href="">
+            <img src="images/5.jpg" alt=""></a>
+         
+           <h1>3.러시안 블루</h1>         
+        </li>
+     </ul>
+    </div>
+  </div>
+
+  <div id="mainbotbot">
+    <div id="leftbotbot">
+        <ul> 
+          <li>       
+              <a href="">
+                 <img src="images/8.jpg" alt=""></a>
+              
+                <h1>6. 샴</h1>          
+          </li>
+  
+          <li>
+             <a href="">
+              <img src="images/6.jpg" alt=""></a>
+           
+             <h1>5.스핑크스</h1>
+           
+          </li>
+        </ul>
+    </div>
+  </div>
+
+ 
+
+ 
+  
+
+  <div id="footerMenu_wrap">
+    <div id="footerMenu">
+      <ul>
+        <li class="First">
+          <a href="">황반콰</a>
+        </li>
+        <li class="First">
+          <a href="">황티타오</a>
+        </li>
+        <li class="First">
+          <a href="">팜티궤느 </a>
+        </li>
+        <li class="First">
+          <a href="">도트엉동</a>
+        </li>
+        <li class="First">
+          <a href=""> 반광틴</a>
+        </li>
+        <h2> <img src="images/logo.png" alt=""></h2>
+      </ul>
+    </div>
+  </div>
+
+  <div id="backtop">
+    <i class="fa-solid fa-chevron-up"></i>
+  </div>
+         
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function() {
+       $(window).scroll(function() {
+            if($(this).scrollTop()) {
+               $('#backtop').fadeIn();
+             } else {
+               $('#backtop').fadeOut();
+            }
+        
+ 
+        });
+        $('#backtop').click(function(){
+           $('html, body').animate({
+              scrollTop: 0
+            },500);
+
+        });
+    });
+  </script>
+</html>
