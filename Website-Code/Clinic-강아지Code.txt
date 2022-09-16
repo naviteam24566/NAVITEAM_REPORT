@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/app.css">
+  <title>HOANG KHOA</title>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <nav class="container">
+        <a href="" id="logo">
+          <img src="images/299920600_1750135972009193_5076994758424759449_n.png" alt="HOANG KHOA">
+        </a>
+
+       <ul id="main-menu">
+          <li><a href="">홈</a></li>
+          
+          <li><a href="">동물입양</a>
+            <ul class="sub-menu">
+              <li><a href="/animalProfile/index.html" target="_blank">동물점보</a></li>
+              <li><a href="/animal-adopt/index.html" target="_blank">무료입양</a></li>      
+            </ul> 
+          </li> 
+
+          <li><a href="">서비스 센터</a>
+            <ul class="sub-menu">
+              <li><a href="/Hotell/index.html" target="_blank">호텔</a></li>
+              <li><a href="">마사지</a></li>
+            </ul> 
+          </li>
+
+          <li><a href="">쇼핑</a></li>
+          
+          <li><a href="">클리닉</a></li>
+
+          <li><a href="">지도</a>
+            <ul class="sub-menu">
+              <li><a href="/MenuWeb/add-google -map/index.html" target="_blank">보호소 </a></li>
+              <li><a href="/MenuWeb/hospital center/index.html" target="_blank">동물병원 </a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    
+    </div>
+  </div>
+    
+   <script src="https://code.jquery.com/jquery-3.6.1.js" ></script>
+   <script>
+      $(document).ready(function() {
+      $('.sub-menu').parent('li').addClass('has-child');
+      });
+   </script> 
+   
+   
+   <div id="mainboy">
+    <div id="leftboy">
+
+      <h3 class="title-box-leftboy ">강아지 건강검진</h3>
+      <ul> 
+        <li>       
+            <a href="">
+               <img src="images/lsdlskdjf.jpg" alt=""></a>
+                         
+              <h3>
+                건강 검진은 반려동물의 건강상태 확인, 질병의 조기진단, 마취가능 유무 등을 확인하는 건강관리의 시작입니다.<br><br>
+                건강검진은 기본적인 신체검사와 혈압검사를 비롯하여 혈액과 소변 검사, 방사선과 초음파를 통한<br><br>
+                영상검사, 당뇨, 갑상선, 부신기능을 평가하는 호르몬 검사, 염증과 당뇨병 검사와 같은 특별한 검사도 있습니다.<br><br>
+              </h3>
+        </li>        
+     </ul>
+    </div>
+  </div>
+
+  <div id="main">
+    <div id="left">
+      <h3 class="title-box-left ">종별 특이적 중점 관찰 체크 리스트</h3>
+      <ul> 
+        <li>       
+            <a href="">
+               <img src="images/17.jpg" alt=""></a>
+            
+              <h1>2. 말티즈</h1>
+        
+        </li>
+
+        <li>
+           <a href="">
+            <img src="images/18.jpg" alt=""></a>
+         
+           <h1>1.푸들</h1>        
+        </li>
+     </ul>
+    </div>
+  </div>
+
+  <div id="mainbot">
+    <div id="leftbot">
+      <ul> 
+        <li>       
+            <a href="">
+               <img src="images/19.jpg" alt=""></a>
+            
+              <h1>4. 웰시코기</h1>       
+        </li>
+
+        <li>
+           <a href="">
+            <img src="images/20.jpg" alt=""></a>
+         
+           <h1>3.킹찰스 스패니얼</h1>         
+        </li>
+     </ul>
+    </div>
+  </div>
+
+  <div id="mainbotbot">
+    <div id="leftbotbot">
+        <ul> 
+          <li>       
+              <a href="">
+                 <img src="images/21.jpg" alt=""></a>
+              
+                <h1>5. 요크셔테리어</h1>          
+          </li>
+  
+          <li>
+             <a href="">
+              <img src="images/22.jpg" alt=""></a>
+           
+             <h1>4.포메, 스피츠</h1>
+           
+          </li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="mainbotbotto">
+    <div id="leftbotbotto">
+        <ul> 
+          <li>       
+              <a href="">
+                 <img src="images/23.jpg" alt=""></a>
+              
+                <h1>7. 비숑</h1>          
+          </li>
+  
+          <li>
+             <a href="">
+              <img src="images/24.jpg" alt=""></a>
+           
+             <h1>6.시츄</h1>          
+          </li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="mainbotbottoto">
+    <div id="leftbotbottoto">
+        <ul> 
+          <li>       
+              <a href="">
+                 <img src="images/25.jpg" alt=""></a>             
+                <h1>9. 닥스훈트</h1>          
+          </li>
+  
+          <li>
+             <a href="">
+              <img src="images/26.jpg" alt=""></a>
+           
+             <h1>8.보스턴 테리어</h1>          
+          </li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="footerMenu_wrap">
+    <div id="footerMenu">
+      <ul>
+        <li class="First">
+          <a href="">황반콰</a>
+        </li>
+        <li class="First">
+          <a href="">황티타오</a>
+        </li>
+        <li class="First">
+          <a href="">팜티궤느 </a>
+        </li>
+        <li class="First">
+          <a href="">도트엉동</a>
+        </li>
+        <li class="First">
+          <a href=""> 반광틴</a>
+        </li>
+        <h2> <img src="images/logo.png" alt=""></h2>
+      </ul>
+    </div>
+  </div>
+
+  <div id="backtop">
+    <i class="fa-solid fa-chevron-up"></i>
+  </div>
+         
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function() {
+       $(window).scroll(function() {
+            if($(this).scrollTop()) {
+               $('#backtop').fadeIn();
+             } else {
+               $('#backtop').fadeOut();
+            }
+        
+ 
+        });
+        $('#backtop').click(function(){
+           $('html, body').animate({
+              scrollTop: 0
+            },500);
+
+        });
+    });
+  </script>
+</html>
