@@ -1,0 +1,64 @@
+<div id="main">
+    <div id="left">
+      <ul>
+        <li>        
+             <img src ="images/1.png"  target="_blank"></a>    
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id="main">
+    <div id="leftbox">
+      <ul>
+        <li>    
+             <img src="images/2.png"  target="_blank"></a>  
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="main">
+    <div id="leftboxboy">
+      <ul>
+        <li>    
+             <img src="images/3.png"  target="_blank"></a>  
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id="main">
+    <div id="leftboxboygirl">
+      <ul>
+        <li>    
+             <img src="images/4.png"  target="_blank"></a>  
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="footerMenu_wrap">
+    <div id="footerMenu">
+      <ul>
+        <li class="First">
+          <a href="">황반콰</a>
+        </li>
+        <li class="First">
+          <a href="">황티타오</a>
+        </li>
+        <li class="First">
+          <a href="">팜티궤느 </a>
+        </li>
+        <li class="First">
+          <a href="">도트엉동</a>
+        </li>
+        <li class="First">
+          <a href=""> 반광틴</a>
+        </li>
+        <h2> <img src="images/logo.png" alt=""></h2>
+      </ul>
+    </div>
+  </div>
