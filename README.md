@@ -340,11 +340,19 @@ mutate {
   전국에 동물보호센터 정보 조회, 맵 및 히트맵을 제공한다. 히트맵을 통해 "인천, 울산, 경기"에서 동물보호센터가 많이 집중하는 것을 보인다.
    
     
-<h3 align="left"> III. 유기동물 관리 웹사이트 개발 프로세스 </h3>
- <h4 align="left">1. 웹사이트의 목적</h4>
- 위에 분석했던 데이터를 살펴보면 여러 원인으로 유기동물의 수량이 급격히 증가하고 있다. 현제 유기동물의 문제들은 한국의 사회 문제에 많은 주의를 받고 있습니다. 유기동물 보호 문제가 중요하고 긴급한 문제를 인식하여 저희 팀은 유기동물을 위한 한 웹사이트를 디자인했다. 이 윕사이트의 주요 목적은 동물을 사랑하고 입양하고 싶은 사람들과 유기동물을 연결하는 것을 지원하는 것이다. 게다가 동물을 힘들지 않게 키울 수 있도록 웹사이트에서 동물을 위한 서비스들(pet spa, pet hotel, pet clinic,..)이 있다.
-<h4 align="left"> 1. Menu - 코딩 </h4>
-   
+<h3 align="left"> III. 유기동물 관리 웹사이트 디자인 프로세스 </h3>
+
+<h4 align="left">1. 웹사이트의 목적</h4>
+* 위에 분석했던 데이터를 살펴보면 여러 원인으로 유기동물의 수량이 급격히 증가하고 있다. 현제 유기동물의 문제들은 한국의 사회 문제에 많은 주의를 받고 있습니다. 유기동물 보호 문제가 중요하고 긴급한 문제를 인식하여 우리 팀은 유기동물을 위한 한 웹사이트를 디자인했다. 
+* 이 웹사이트의 주요 목적은 동물을 사랑하고 입양하고 싶은 사람들과 유기동물을 연결하는 것을 지원하는 것이다. 게다가 동물을 키움에 돕기 위해서 도록 웹사이트에서 동물을 위한 서비스들(pet spa, pet hotel, pet clinic,..)이 있다.
+
+<h4 align="left">2. 데이터 활용 </h4>
+ * 키바나에서 분석했던 유기동물 정보에 대한 데이터를 활용함과 같이 Visual Studio Code를 사용했다.
+ * 유기동물 정보에 대한 데이터에 의하고 Visual Studio Code를 통하여 웹사이트의 각 성분을 디자인하기 위해서 코딩했다.
+ 
+ <h4 align="left">3. 웹사이트 구축</h4>
+ <h4 align="left"> 3.1 Menu - 코딩 </h4>
+  
 <p align="center">
  <img src="Website/Picture2.png" style="width:800px;"/>
 </p>
@@ -353,7 +361,7 @@ mutate {
  <img src="Website/Picture1.png" style="width:800px;"/>
 </p>
    
-   <h4 align="left"> 2. 동물서비스 센터 - 코딩 </h4>
+<h4 align="left"> 3.2 동물서비스 센터 - 코딩 </h4>
    
 <p align="center">
  <img src="Website/Picture4.png" style="width:800px;"/>
@@ -363,7 +371,7 @@ mutate {
  <img src="Website/Picture3.png" style="width:800px;"/>
 </p>
    
-   <h4 align="left"> 3. 유기동물 뉴스 - 코딩</h4>
+  <h4 align="left"> 3.3. 유기동물 뉴스 - 코딩</h4>
    
 <p align="center">
  <img src="Website/Picture5.png" style="width:800px;"/>
@@ -374,7 +382,7 @@ mutate {
 </p>
 
       
-   <h4 align="left"> 4. 유기동물 비디오 - 코딩</h4>
+   <h4 align="left"> 3.4. 유기동물 비디오 - 코딩</h4>
    
 <p align="center">
  <img src="Website/Picture7.png" style="width:800px;"/>
@@ -385,7 +393,7 @@ mutate {
 </p>
 
       
-   <h4 align="left"> 5. 동물정보 - 코딩</h4>
+   <h4 align="left"> 3.5. 동물정보 - 코딩</h4>
    
 <p align="center">
  <img src="Website/Picture9.png" style="width:800px;"/>
@@ -400,7 +408,7 @@ mutate {
 </p>
 
       
-   <h4 align="left"> 6. 동물입양하기 - 코딩</h4>
+   <h4 align="left"> 3.6. 동물입양하기 - 코딩</h4>
    
 <p align="center">
  <img src="Website/Picture12.png" style="width:800px;"/>
@@ -411,7 +419,7 @@ mutate {
 </p>
    
          
-   <h4 align="left"> 7. 호텔 - 코딩</h4>
+   <h4 align="left"> 3.7. 호텔 - 코딩</h4>
    
 <p align="center">
  <img src="Website/Picture14.png" style="width:800px;"/>
@@ -422,7 +430,7 @@ mutate {
 </p>
    
          
- <h4 align="left"> 8. 마사지방법 - 코딩</h4>
+ <h4 align="left"> 3.8. 마사지방법 - 코딩</h4>
    
 <p align="center">
  <img src="Website/Picture16.png" style="width:800px;"/>
@@ -432,7 +440,7 @@ mutate {
  <img src="Website/Picture17.png" style="width:800px;"/>
 </p>
    
- <h4 align="left"> 9. 강아지건강검진 - 코딩</h4>
+ <h4 align="left"> 3.9. 강아지건강검진 - 코딩</h4>
    
 <p align="center">
  <img src="Website/Picture18.png" style="width:800px;"/>
@@ -442,7 +450,7 @@ mutate {
  <img src="Website/Picture19.png" style="width:800px;"/>
 </p>
    
- <h4 align="left"> 10. 종별 특이… - 코딩</h4>
+ <h4 align="left"> 3.10. 종별 특이… - 코딩</h4>
    
 <p align="center">
  <img src="Website/Picture20.png" style="width:800px;"/>
@@ -452,7 +460,7 @@ mutate {
  <img src="Website/Picture21.png" style="width:800px;"/>
 </p>
    
-  <h4 align="left"> 11. 동물보호소지도 - 코딩</h4>
+  <h4 align="left"> 3.11. 동물보호소지도 - 코딩</h4>
    
 <p align="center">
  <img src="Website/Picture22.png" style="width:800px;"/>
@@ -462,7 +470,7 @@ mutate {
  <img src="Website/Picture23.png" style="width:800px;"/>
 </p>
    
-  <h4 align="left"> 12. 동물병원 - 코딩</h4>
+  <h4 align="left"> 3.12. 동물병원 - 코딩</h4>
    
 <p align="center">
  <img src="Website/Picture24.png" style="width:800px;"/>
@@ -479,4 +487,4 @@ mutate {
    
 <h3 align="left"> IV. "CHATBOT" 성능 활용 </h3>
    
-    9원 16일 전에  완성할 예정이다.
+    9원 23일 전에  완성할 예정이다.
