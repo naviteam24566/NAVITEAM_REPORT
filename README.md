@@ -346,11 +346,11 @@ mutate {
 <h4 align="left"> 1. Menu - 코딩 </h4>
    
 <p align="center">
- <img src="Website/Picture2.png" style="width:350px;"/>
+ <img src="Website/Picture2.png" style="width:500px;"/>
 </p>
 
 <p align="center">
- <img src="Website/Picture1.png" style="width:350px;"/>
+ <img src="Website/Picture1.png" style="width:500px;"/>
 </p>
 
 
