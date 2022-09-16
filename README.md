@@ -353,17 +353,20 @@ mutate {
 * 유기동물 정보에 대한 데이터에 의하고 Visual Studio Code를 통하여 웹사이트의 각 성분을 디자인하기 위해서 코딩했다.
  
  <h4 align="left">3. 웹사이트 구축</h4>
- <h4 align="left"> 3.1. Menu - 코딩 </h4>
+ <h4 align="left"> 3.1. 웹사이트의 메뉴 </h4>
   
 <p align="center">
  <img src="Website/Picture2.png" style="width:800px;"/>
 </p>
+ <p align = "center">
 
 <p align="center">
  <img src="Website/Picture1.png" style="width:800px;"/>
 </p>
+ <em>그림 1,2: 웹사이트의 메뉴 코드 및 인터페이스 </em>
+</p>
    
-<h4 align="left"> 3.2. 동물서비스 센터 - 코딩 </h4>
+<h4 align="left"> 3.2. 동물서비스 센터 </h4>
    
 <p align="center">
  <img src="Website/Picture4.png" style="width:800px;"/>
@@ -372,8 +375,10 @@ mutate {
 <p align="center">
  <img src="Website/Picture3.png" style="width:800px;"/>
 </p>
-   
-  <h4 align="left"> 3.3. 유기동물 뉴스 - 코딩</h4>
+</p>
+ <em>그림 3,4: 동물서비스센터 바의 코드 및 인터페이스 </em>
+</p>
+<h4 align="left"> 3.3. 유기동물 뉴스</h4>
    
 <p align="center">
  <img src="Website/Picture5.png" style="width:800px;"/>
@@ -382,9 +387,11 @@ mutate {
 <p align="center">
  <img src="Website/Picture6.png" style="width:800px;"/>
 </p>
-
+</p>
+ <em>그림 5,6: 유기동물 뉴스 바의 코드 및 인터페이스 </em>
+</p>
       
-   <h4 align="left"> 3.4. 유기동물 비디오 - 코딩</h4>
+<h4 align="left"> 3.4. 유기동물 비디오 - 코딩</h4>
    
 <p align="center">
  <img src="Website/Picture7.png" style="width:800px;"/>
@@ -394,8 +401,11 @@ mutate {
  <img src="Website/Picture8.png" style="width:800px;"/>
 </p>
 
+</p>
+ <em>그림 7,8: 유기동물 비디오 바의 코드 및 인터페이스 </em>
+</p>
       
-   <h4 align="left"> 3.5. 동물정보 - 코딩</h4>
+<h4 align="left"> 3.5. 동물정보 - 코딩</h4>
    
 <p align="center">
  <img src="Website/Picture9.png" style="width:800px;"/>
@@ -408,7 +418,9 @@ mutate {
   <p align="center">
  <img src="Website/Picture11.png" style="width:800px;"/>
 </p>
-
+</p>
+ <em>그림 3,4: 동물정보 바의 코드 및 인터페이스 </em>
+</p>
       
    <h4 align="left"> 3.6. 동물입양하기 - 코딩</h4>
    
