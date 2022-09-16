@@ -269,11 +269,13 @@ mutate {
 <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
 
 <p align="center">
- <img src="Images/품종별 접수건.png" style="width:400px;"/>
+ <img src="Images/품종별 접수건.png" style="width:500px;"/>
 </p>
+
 <p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:400px;"/>
+ <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
 </p>
+
  <p align="center">     
   <em>그림 7: 품종별 접수건 및 일별 품종별 접수건 </em>
 </p>
@@ -350,155 +352,129 @@ mutate {
 <p align="center">
  <img src="Website/Picture1.png" style="width:800px;"/>
 </p>
+   
+   <h4 align="left"> 2. 동물서비스 센터 - 코딩 </h4>
+   
+<p align="center">
+ <img src="Website/Picture4.png" style="width:800px;"/>
+</p>
+
+<p align="center">
+ <img src="Website/Picture3.png" style="width:800px;"/>
+</p>
+   
+   <h4 align="left"> 3. 유기동물 뉴스 - 코딩</h4>
+   
+<p align="center">
+ <img src="Website/Picture5.png" style="width:800px;"/>
+</p>
+
+<p align="center">
+ <img src="Website/Picture6.png" style="width:800px;"/>
+</p>
+
+      
+   <h4 align="left"> 4. 유기동물 비디오 - 코딩</h4>
+   
+<p align="center">
+ <img src="Website/Picture7.png" style="width:800px;"/>
+</p>
+
+<p align="center">
+ <img src="Website/Picture8.png" style="width:800px;"/>
+</p>
+
+      
+   <h4 align="left"> 5. 동물정보 - 코딩</h4>
+   
+<p align="center">
+ <img src="Website/Picture9.png" style="width:800px;"/>
+</p>
+
+<p align="center">
+ <img src="Website/Picture10.png" style="width:800px;"/>
+</p>
+   
+  <p align="center">
+ <img src="Website/Picture11.png" style="width:800px;"/>
+</p>
+
+      
+   <h4 align="left"> 6. 동물입양하기 - 코딩</h4>
+   
+<p align="center">
+ <img src="Website/Picture12.png" style="width:800px;"/>
+</p>
+
+<p align="center">
+ <img src="Website/Picture13.png" style="width:800px;"/>
+</p>
+   
+         
+   <h4 align="left"> 7. 호텔 - 코딩</h4>
+   
+<p align="center">
+ <img src="Website/Picture14.png" style="width:800px;"/>
+</p>
+
+<p align="center">
+ <img src="Website/Picture15.png" style="width:800px;"/>
+</p>
+   
+         
+ <h4 align="left"> 8. 마사지방법 - 코딩</h4>
+   
+<p align="center">
+ <img src="Website/Picture16.png" style="width:800px;"/>
+</p>
+
+<p align="center">
+ <img src="Website/Picture17.png" style="width:800px;"/>
+</p>
+   
+ <h4 align="left"> 9. 강아지건강검진 - 코딩</h4>
+   
+<p align="center">
+ <img src="Website/Picture18.png" style="width:800px;"/>
+</p>
+
+<p align="center">
+ <img src="Website/Picture19.png" style="width:800px;"/>
+</p>
+   
+ <h4 align="left"> 10. 종별 특이… - 코딩</h4>
+   
+<p align="center">
+ <img src="Website/Picture20.png" style="width:800px;"/>
+</p>
+
+<p align="center">
+ <img src="Website/Picture21.png" style="width:800px;"/>
+</p>
+   
+  <h4 align="left"> 11. 동물보호소지도 - 코딩</h4>
+   
+<p align="center">
+ <img src="Website/Picture22.png" style="width:800px;"/>
+</p>
+
+<p align="center">
+ <img src="Website/Picture23.png" style="width:800px;"/>
+</p>
+   
+  <h4 align="left"> 12. 동물병원 - 코딩</h4>
+   
+<p align="center">
+ <img src="Website/Picture24.png" style="width:800px;"/>
+</p>
+
+<p align="center">
+ <img src="Website/Picture25.png" style="width:800px;"/>
+</p>
 
 
    
-   <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
-
-<p align="center">
- <img src="Images/품종별 접수건.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
-</p>
    
-   <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
-
-<p align="center">
- <img src="Images/품종별 접수건.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
-</p>
-   
-   <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
-
-<p align="center">
- <img src="Images/품종별 접수건.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
-</p>
-   
-   <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
-
-<p align="center">
- <img src="Images/품종별 접수건.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
-</p>
-   
-   
-   <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
-
-<p align="center">
- <img src="Images/품종별 접수건.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
-</p>
-   
-   
-   <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
-
-<p align="center">
- <img src="Images/품종별 접수건.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
-</p>
-   
-   <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
-
-<p align="center">
- <img src="Images/품종별 접수건.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
-</p>
-   
-   
-   <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
-
-<p align="center">
- <img src="Images/품종별 접수건.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
-</p>
-   
-   <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
-
-<p align="center">
- <img src="Images/품종별 접수건.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
-</p>
-   
-   
-   <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
-
-<p align="center">
- <img src="Images/품종별 접수건.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
-</p>
-   
-   
-   <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
-
-<p align="center">
- <img src="Images/품종별 접수건.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
-</p>
-   
-   <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
-
-<p align="center">
- <img src="Images/품종별 접수건.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
-</p>
-   
-   
-   <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
-
-<p align="center">
- <img src="Images/품종별 접수건.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
-</p>
-   
-   
-   <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
-
-<p align="center">
- <img src="Images/품종별 접수건.png" style="width:350px;"/>
-</p>
-
-<p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
-</p>
    
    
 <h3 align="left"> IV. "CHATBOT" 성능 활용 </h3>
