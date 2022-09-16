@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/app.css">
+  <title>HOANG KHOA</title>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <nav class="container">
+        <a href="" id="logo">
+          <img src="images/299920600_1750135972009193_5076994758424759449_n.png" alt="HOANG KHOA">
+        </a>
+
+       <ul id="main-menu">
+          <li><a href="">홈</a></li>
+          
+          <li><a href="">동물입양</a>
+            <ul class="sub-menu">
+              <li><a href="/animalProfile/index.html" target="_blank">동물점보</a></li>
+              <li><a href="/animal-adopt/index.html" target="_blank">무료입양</a></li>      
+            </ul> 
+          </li> 
+
+          <li><a href="">서비스 센터</a>
+            <ul class="sub-menu">
+              <li><a href="/Hotell/index.html" target="_blank">호텔</a></li>
+              <li><a href="">마사지</a></li>
+            </ul> 
+          </li>
+
+          <li><a href="">쇼핑</a></li>
+          
+          <li><a href="">클리닉</a></li>
+
+          <li><a href="">지도</a>
+            <ul class="sub-menu">
+              <li><a href="/MenuWeb/add-google -map/index.html" target="_blank">보호소 </a></li>
+              <li><a href="/MenuWeb/hospital center/index.html" target="_blank">동물병원 </a></li>
+            </ul>
+          </li>
+       </ul>
+     </nav>
+    
+     </div>
+    </div>
+    
+   <script src="https://code.jquery.com/jquery-3.6.1.js" ></script>
+   <script>
+      $(document).ready(function() {
+      $('.sub-menu').parent('li').addClass('has-child');
+      });
+   </script> 
+   
+   
+   <div id="mainboy">
+    <div id="leftboy">
+
+      <h3 class="title-box-leftboy ">PET SPA 서비스</h3>
+ 
+      <ul> 
+        <li>       
+            <a href="">
+               <img src="images/9.jpg" alt=""></a>
+            
+              <h1>1.강아지 목욕</h1>
+              
+              <h3>강아지 목욕 과정:<br><br>
+                1. 개와 고양이의 피부와 털을 검사하여 어떤 목욕 오일을 사용할지 결정한다.<br>
+                2. 개와 고양이의 몸에서 나는 냄새를 완전히 제거하기 위해 항문액을 짜내는 것이다.<br>
+                3. 목욕 오일을 바르기 전에 깨끗한 물로 애완 동물을 헹구어 먼지를 제거하는 것입니다. <br>
+                   그런 다음, 그루머는 전문 키트로 강아지와 고양이의 머리카락을 부드럽게 마사지하고 먼지를 제거한다.<br>
+                4. 우리는 샤워 젤을 씻어내고 컨디셔너를 사용하여 개와 고양이의 피부와 코트에 수분을 공급하고 매끄럽게 한다.<br>
+                5. 물을 사용하여 컨디셔너를 헹군 다음 머리카락을 말리고 빗질하여 개와 고양이 털에 남아 있는 죽은 털을 제거하는 것이다.<br>
+                6. 로션을 얇게 바르면 애완 동물의 코트에 자연스러운 광택이 생긴다.<br>
+                7. 향수를 뿌리면 개와 고양이의 몸에 오래 지속되는 향기가 나다.<br>
+              </h3>
+        </li>
+
+        <li>
+           <a href="">
+            <img src="images/10.jpg" alt=""></a>
+         
+           <h1>2.애완 동물 귀 청소.</h1>
+          
+            <h3> 애완 동물 귀 청소 과정:<br><br>
+              1. 개와 고양이의 귀를 전반적으로 검사하고 귀에 이물질, 기생충 또는 감염 징후가 있는지 확인한다.<br><br>
+              2. 특수 애완 동물 귀 핀셋과 분말을 사용하여 외이도의 과도한 털을 제거한다. <br><br>
+              3. 고양이 귀에 붙은 귀지 가루와 먼지를 귀 청소용 면봉으로 닦아준다.<br><br>
+              4. 개와 고양이의 귀를 전용 귀 세정제로 세척하여 귀 속 세균의 증식을 억제하고 소독하여 반려동물의 귀에 기분 좋은 향을 선사한다.
+           </h3>
+        </li>
+     </ul>
+    </div>
+  </div>
+
+  <div id="mainboy">
+    <div id="leftboya">
+      <ul> 
+        <li>       
+            <a href="">
+               <img src="images/11.jpg" alt=""></a>
+            
+              <h1>3.손톱을 자르고 정리하기</h1>
+              
+              <h3> 자르고 정리하기 과정:<br><br>
+                1. 펫스파 도기리펫샵의 전문가가 반려견의 발 길이를 꼼꼼히 체크하여 잘라야 할 펫의 발톱과 고기 찌꺼기를 명확하게 구분해즌다.<br><br>
+                2.우리는 전문 개와 고양이 손톱깎이를 사용하여 아이들의 손톱을 짧게 자를 것이다.<br><br>
+                3. 고양이와 강아지를 위해 특별히 제작된 특수 연마 장비를 사용하여 손톱의 날카로운 모서리를 조심스럽고 안전하게 연마한다.<br><br>
+                4. 애완 동물의 손톱을 씻고 말리는 것이다.<br><br>
+        </li>
+
+        <li>
+           <a href="">
+            <img src="images/12.jpg" alt=""></a>
+         
+           <h1>4.털을 자르고 정리하기.</h1>
+          
+            <h3> 자르고 정리하기 과정:<br><br>
+              1. 개의 피부와 털을 확인하여 피부와 털의 상태를 확인한다.<br><br>
+              2. 손님이 선택할 수 있도록 애완 동물의 상태에 적합한 머리 자르기 및 청소 스타일에 대해 주인에게 조언하십시오.<br><br>
+              3. 개와 고양이를 위해 다리, 복부 및 항문의 털을 면도하고 청소하십시오.<br><br>
+              4. 애완 동물의 몸에 과도한 머리카락을 제거하는 헤어 드라이어.<br><br>
+              5. 애완 동물의 머리를 빗어준다.<br><br>
+              6. 고양이와 강아지의 향기와 모발 관리를 위한 특수 고급 향수 스프레이<br><br>
+           </h3>
+        </li>
+     </ul>
+    </div>
+  </div>
+
+
+  
+  
+  <div id="main">
+    <div id="left">
+
+      <h3 class="title-box-left ">마사지 방법</h3>
+ 
+      <ul> 
+        <li>       
+            <a href="">
+               <img src="images/1.jpg" alt=""></a>
+            
+              <h1>1.등 마사지</h1>
+              <h2>- 불안과 과잉 행동을 보이는 강아지들은 
+                 등을 전체적으로 쓰다듬어 주었을 때     
+                 진정되는 효과를 나타낸다.<br>      
+                 - 위장 건강에도 도움이 되며 반려인과의 
+                 친밀감 상승에도 도움이 돤다.<br>    
+                </h2>
+              <h3>방법:<br>
+                1. 약 6초 정도 목부터 꼬리 윗부분까지 손등 또는 손바닥으로 천천히 쓰다듬된다.<br>
+
+                2. 1번을 여러 번 반복하는데 이때 아이의 몸에 전과 달리 무언가 만져지거나 변화가 생겼는지 확인한다.<br> 
+
+                3. 그 후 엄지손가락으로 척추 주변 원을 그리며 살며시 눌러준다.<br>
+              </h3>
+        </li>
+
+        <li>
+           <a href="">
+            <img src="images/2.jpg" alt=""></a>
+         
+           <h1>2.얼굴 마사지</h1>
+           <h2>- 강아지의 얼굴 주변은 신경계와 위가 
+              튼튼해지는 효과가 있으며 눈 주변은 방광,<br>            
+              - 담낭 등과 관련이 있으므로 얼굴 부분을 자주             
+              문질러 주면 도움이 될 수 있다.<br>    
+             </h2>
+            <h3> 방법:<br>
+             1. 약 6초 정도 목부터 꼬리 윗부분까지 손등 또는 손바닥으로 천천히 쓰다듬된다.<br>
+
+             2. 1번을 여러 번 반복하는데 이때 아이의 몸에 전과 달리 무언가 만져지거나 변화가 생겼는지 확인한다.<br> 
+
+             3. 그 후 엄지손가락으로 척추 주변 원을 그리며 살며시 눌러준다.<br>
+           </h3>
+        </li>
+     </ul>
+    </div>
+  </div>
+
+  <div id="main">
+      <div id="right">  
+        <ul>
+         <li>
+          <a href="">
+            <img src="images/3.jpg" alt=""></a>
+         
+              <h1>3.양쪽 귀 마사지</h1>
+              <h2>- 강아지의 귀 주변을 부드럽게 어루만지면
+                  강아지들의 스트레스와 불안을 해소시켜주는 효과가 있으며<br>           
+                  - 전체적인 피로를 풀어주고 에너지를 돋아준다.<br>    
+              </h2>
+           <h3>방법:<br>
+            1.     아이가 아프지 않을 정도의 약한 압력으로 
+            눈 주변을 부드럽게 쓸어주듯 원을 그려 만져준다.<br>
+
+            2.     눈과 눈 사이의 부분을 아래에서 위로 쓸어주듯 만지면 
+            스트레스 완화의 효과를 볼 수 있다.<br>
+    
+            3.     두 과정을 반복하여 주며 아이가 눈을 떴을 때에는 시선 교환을 하며 마무리한다.<br>
+           </h3>
+         </li>
+ 
+         <li>
+          <a href="">
+            <img src="images/4.jpg" alt=""></a>
+         
+              <h1>4.복부 마사지</h1>
+              <h2>- 강아지의 복부는 소화와 관련이 있어 
+                 - 소화불량이 자주 오는 강아지들에게 필수 마사지 방법이다.<br>           
+                 - 배 마사지는 장기적으로 가스와 불필요한 팽만감을 줄여준다.<br>                  
+              </h2>
+           <h3>방법:<br>
+            1.    아이가 배를 보인 자세에서 편안하게 누워있는 상태를 만들어준다.<br>
+
+            2.    손바닥으로 부드럽게 원을 그리며 마사지해 주며<br>
+            너무 강한 압박이 동반되지 않도록 주의한다.<br>
+
+            3.    마지막으로 배가 너무 딱딱하진 않은 지 더부룩하거나 <br>
+            빵빵한 상태는 아닌지 또 통증을 느끼는 부위는 없는지 체크한다.<br>
+
+           </h3>
+         </li>
+        </ul>
+      </div>
+  </div>
+
+
+
+  <div id="main">
+    <div id="left-box">
+      <h3 class="title-box-left ">마사지 방법 비디오</h3>
+      <ul>
+        <li>
+          <a href="html/about.html"></a>
+          <a href="https://www.youtube.com/watch?v=cohEOEEU6p4"  target="_blank">
+               <img src="images/15.png" alt="">
+          </a>
+          <h1></h1>
+                   
+        </li>
+      </ul> 
+    </div>
+  </div>
+
+
+  <div id="footerMenu_wrap">
+    <div id="footerMenu">
+      <ul>
+        <li class="First">
+          <a href="">황반콰</a>
+        </li>
+        <li class="First">
+          <a href="">황티타오</a>
+        </li>
+        <li class="First">
+          <a href="">팜티궤느 </a>
+        </li>
+        <li class="First">
+          <a href="">도트엉동</a>
+        </li>
+        <li class="First">
+          <a href=""> 반광틴</a>
+        </li>
+        <h2> <img src="images/logo.png" alt=""></h2>
+      </ul>
+    </div>
+  </div>
+  <div id="backtop">
+    <i class="fa-solid fa-chevron-up"></i>
+  </div>
+          
+</body>
+
+<script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function() {
+       $(window).scroll(function() {
+            if($(this).scrollTop()) {
+               $('#backtop').fadeIn();
+             } else {
+               $('#backtop').fadeOut();
+            }
+        
+ 
+        });
+        $('#backtop').click(function(){
+           $('html, body').animate({
+              scrollTop: 0
+            },500);
+
+        });
+    });
+  </script>
+</html>
