@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/app.css">
+  <title>HOANG KHOA</title>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <nav class="container">
+        <a href="" id="logo">
+          <img src="images/299920600_1750135972009193_5076994758424759449_n.png" alt="HOANG KHOA">
+        </a>
+
+       <ul id="main-menu">
+          <li><a href="">홈</a></li>
+          
+          <li><a href="">동물입양</a>
+            <ul class="sub-menu">
+              <li><a href="/animalProfile/index.html" target="_blank">동물점보</a></li>
+              <li><a href="/animal-adopt/index.html" target="_blank">무료입양</a></li>      
+            </ul> 
+          </li> 
+
+          <li><a href="">서비스 센터</a>
+            <ul class="sub-menu">
+              <li><a href="/Hotell/index.html" target="_blank">호텔</a></li>
+              <li><a href="">마사지</a></li>
+            </ul> 
+          </li>
+
+          <li><a href="">쇼핑</a></li>
+          
+          <li><a href="">클리닉</a></li>
+
+          <li><a href="">지도</a>
+            <ul class="sub-menu">
+              <li><a href="/MenuWeb/add-google -map/index.html" target="_blank">보호소 </a></li>
+              <li><a href="/MenuWeb/hospital center/index.html" target="_blank">동물병원 </a></li>
+            </ul>
+          </li>
+       </ul>
+      </nav>
+    
+    </div>
+  </div>
+    
+   <script src="https://code.jquery.com/jquery-3.6.1.js" ></script>
+   <script>
+      $(document).ready(function() {
+      $('.sub-menu').parent('li').addClass('has-child');
+      });
+   </script> 
+   
+   
+   <div id="mainboy">
+    <div id="leftboy">
+
+      <h3 class="title-box-leftboy ">자연치아 살리기</h3>
+ 
+      <ul> 
+        <li>       
+            <a href="">
+               <img src="images/anh bia.jpg" alt=""></a>
+            
+              
+              <h2>치주염:잇몸 속 치석까지 제거하는 스케일링이 필요합니다.</h2>
+              <h3>
+                - 치아는 뼈의 건강을 나타내고 잇몸은 체내건강을 나타낸다는 말이 있듯이 구강건강상태는 전신건강과 밀접한 관련을 가지고 있습니다.
+                치석이 많고 잇몸에 염증이 있다면 전신건강이 나쁘다는 반증입니다. 그만큼 치아 건강은 중요합니다.<br><br>
+
+                - 반려동물에게 치주염은 만성염증을 야기하여 인지장애, 심장판막질환, 각종 만성질환을 비롯한 전신건강에 치명적 문제를 야기합니다.
+                이같이 치아관리는 반려동물의 건강을 위해 매우 중요하지만 치아를 집에서 잘 관리하신다는 보호자들을 만나기는 어렵습니다.<br><br>
+
+                - 반려동물은 성격 형성시기부터 즐거운 놀이처럼 이 닦기를 시작해야 하는데 말처럼 쉽지가 않습니다.
+                성격이 온순한 반려동물들도 입에 칫솔이 들어오는 것을 허락하지 않는 경우가 많아 구강관리하기 어려운 것이 현실입니다.<br><br>
+
+                - 그러나 구강관리 없이 나이가 들면 치석이 생기고 입에서 냄새가 나고 출혈이나 잇몸이 붓는 등 치과질환이 발생하게 됩니다.
+                반려동물의 치아구조 특성상 치과 질환의 대부분은 치석이 동반된 치은염과 치주염입니다.<br><br>
+              </h3>
+        </li>
+     </ul>
+    </div>
+  </div>
+
+  <div id="mainboyboy">
+    <div id="leftboyboy">
+      <ul> 
+          <li>       
+            <a href="">
+            <img src="images/제목 없음.png" alt=""></a>    
+         </li>
+     </ul>
+    </div>
+  </div>
+ 
+  <div id="main">
+    <div id="left"> 
+      <ul> 
+        <li>       
+            <a href="">
+               <img src="images/dental_img-20 bia.jpg" alt=""></a>
+            
+              <h1>- 치주염치료를 위한 많은 노력들을 하고 있지만 심각한 치주염으로 치아가 흔들린다면 보존보다는 발치를 고려하게 됩니다.
+                - 자연치아를 살리기 위해서는 사람처럼 시간간격을 두고 여러 번 치료가 필요한데,<br><br>
+                - 치과진료 시 마취가 필요한 반려동물의 특성상 여러 번 전신마취를 하는 것이 어려움이 많기 때문에 발치가 주치료가 될 수 있습니다.<br><br>
+                
+                            
+                - 철저한 치아관리를 통해 치주염을 예방하는 것이 반려동물의 건강도 유지하고 자연치아도 보존하는 필수적인 과정입니다.
+                - 그리고 정기적인 구강검진이나 스케일링을 통해 치주염으로 진행하는 것을 막는 것 또한 중요하다고 하겠습니다.<br><br>
+                
+                               
+                - 스케일링은 치아관리의 시작입니다. 훌륭한 치료를 받았다고 하더라도 차후 관리가 되지 않는다면 치과치료의 의미가 반감되는 것입니다.
+                - 반려동물의 자연 치아 살리기, 치주염 예방이 최선입니다. 올바른 이닦는 습관과 관리가 가장 중요합니다.
+                - 치아관리에 대해 궁금하신 사항은 언제든지 저희와 함께 상의하시길 바랍니다.<br><br>
+              </h1>        
+        </li>  
+     </ul>
+    </div>
+  </div>
+
+  <div id="footerMenu_wrap">
+    <div id="footerMenu">
+      <ul>
+        <li class="First">
+          <a href="">황반콰</a>
+        </li>
+        <li class="First">
+          <a href="">황티타오</a>
+        </li>
+        <li class="First">
+          <a href="">팜티궤느 </a>
+        </li>
+        <li class="First">
+          <a href="">도트엉동</a>
+        </li>
+        <li class="First">
+          <a href=""> 반광틴</a>
+        </li>
+        <h2> <img src="images/logo.png" alt=""></h2>
+      </ul>
+    </div>
+  </div>
+  <div id="backtop">
+    <i class="fa-solid fa-chevron-up"></i>
+  </div>
+         
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function() {
+       $(window).scroll(function() {
+            if($(this).scrollTop()) {
+               $('#backtop').fadeIn();
+             } else {
+               $('#backtop').fadeOut();
+            }
+        
+ 
+        });
+        $('#backtop').click(function(){
+           $('html, body').animate({
+              scrollTop: 0
+            },500);
+
+        });
+    });
+  </script>
+</html>
