@@ -269,13 +269,11 @@ mutate {
 <h4 align="left"> 4.3. 품종별 접수건 및 일별 품종별 접수건  </h4>
 
 <p align="center">
- <img src="Images/품종별 접수건.png" style="width:500px;"/>
+ <img src="Images/품종별 접수건.png" style="width:400px;"/>
 </p>
-
 <p align="center">
- <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
+ <img src="Images/일별 품종별 접수건.png" style="width:400px;"/>
 </p>
-<img src="Images/품종별 접수건.png" style="width:500px;"/> <img src="Images/일별 품종별 접수건.png" style="width:500px;"/>
  <p align="center">     
   <em>그림 7: 품종별 접수건 및 일별 품종별 접수건 </em>
 </p>
