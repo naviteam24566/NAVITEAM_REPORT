@@ -363,7 +363,7 @@ mutate {
  <img src="Website/Picture1.png" style="width:800px;"/>
 </p>
 <p align = "center">
- <em>그림 1,2: 웹사이트의 메뉴 코드 및 인터페이스 </em>
+ <em>그림: 웹사이트의 메뉴 코드 및 인터페이스 </em>
 </p>
    
 <h4 align="left"> 3.2. 동물서비스 센터 </h4>
@@ -376,7 +376,7 @@ mutate {
  <img src="Website/Picture3.png" style="width:800px;"/>
 </p>
 <p align = "center">
- <em>그림 3,4: 동물서비스센터 바의 코드 및 인터페이스 </em>
+ <em>그림: 동물서비스센터 바의 코드 및 인터페이스 </em>
 </p>
 <h4 align="left"> 3.3. 유기동물 뉴스</h4>
    
@@ -388,7 +388,7 @@ mutate {
  <img src="Website/Picture6.png" style="width:800px;"/>
 </p>
 <p align = "center">
- <em>그림 5,6: 유기동물 뉴스 바의 코드 및 인터페이스 </em>
+ <em>그림: 유기동물 뉴스 바의 코드 및 인터페이스 </em>
 </p>
       
 <h4 align="left"> 3.4. 유기동물 비디오</h4>
@@ -402,7 +402,7 @@ mutate {
 </p>
 
 <p align = "center">
- <em>그림 7,8: 유기동물 비디오 바의 코드 및 인터페이스 </em>
+ <em>그림: 유기동물 비디오 바의 코드 및 인터페이스 </em>
 </p>
       
 <h4 align="left"> 3.5. 동물정보</h4>
@@ -419,10 +419,10 @@ mutate {
  <img src="Website/Picture11.png" style="width:800px;"/>
 </p>
 <p align = "center">
- <em>그림 3,4: 동물정보 바의 코드 및 인터페이스 </em>
+ <em>그림: 동물정보 바의 코드 및 인터페이스. 동물입양 페이지이다 </em>
 </p>
       
-   <h4 align="left"> 3.6. 동물입양하기</h4>
+ <h4 align="left"> 3.6. 동물입양하기</h4>
    
 <p align="center">
  <img src="Website/Picture12.png" style="width:800px;"/>
@@ -431,9 +431,11 @@ mutate {
 <p align="center">
  <img src="Website/Picture13.png" style="width:800px;"/>
 </p>
-   
+  <p align = "center">
+ <em>그림: 동물입양하기 바의 코드 및 인터페이스. 동물입양 페이지이다. </em>
+</p>
          
-   <h4 align="left"> 3.7. 호텔 </h4>
+ <h4 align="left"> 3.7. 호텔 </h4>
    
 <p align="center">
  <img src="Website/Picture14.png" style="width:800px;"/>
@@ -442,7 +444,9 @@ mutate {
 <p align="center">
  <img src="Website/Picture15.png" style="width:800px;"/>
 </p>
-   
+  <p align = "center">
+ <em>그림: 호텔 바의 코드 및 인터페이스. 서비스 페이지에서 동물을 위한 호텔 서비스이다. </em>
+</p>
          
  <h4 align="left"> 3.8. 마사지방법</h4>
    
@@ -453,7 +457,9 @@ mutate {
 <p align="center">
  <img src="Website/Picture17.png" style="width:800px;"/>
 </p>
-   
+   <p align = "center">
+ <em>그림: 마사지방법 바의 코드 및 인터페이스. 서비스 페이지에서 동물을 위한 마사지를 안내 서비스이다. </em>
+</p>
  <h4 align="left"> 3.9. 강아지건강검진</h4>
    
 <p align="center">
@@ -463,8 +469,10 @@ mutate {
 <p align="center">
  <img src="Website/Picture19.png" style="width:800px;"/>
 </p>
-   
- <h4 align="left"> 3.10. 종별 특이</h4>
+  <p align = "center">
+ <em>그림: 강아지건강검진 바의 코드 및 인터페이스. 동물을 클리닉 페이지이다. </em>
+</p>
+ <h4 align="left"> 3.10. 종별 특이 점검</h4>
    
 <p align="center">
  <img src="Website/Picture20.png" style="width:800px;"/>
@@ -473,8 +481,10 @@ mutate {
 <p align="center">
  <img src="Website/Picture21.png" style="width:800px;"/>
 </p>
-   
-  <h4 align="left"> 3.11. 동물보호소지도</h4>
+   <p align = "center">
+ <em>그림: 종별 특히 점검 바의 코드 및 인터페이스. 동물을 위한 글리닉 페이지이다. </em>
+</p>
+ <h4 align="left"> 3.11. 동물보호소지도</h4>
    
 <p align="center">
  <img src="Website/Picture22.png" style="width:800px;"/>
@@ -483,8 +493,10 @@ mutate {
 <p align="center">
  <img src="Website/Picture23.png" style="width:800px;"/>
 </p>
-   
-  <h4 align="left"> 3.12. 동물병원</h4>
+  <p align = "center">
+ <em>그림: 동물보호소 지도 바의 코드 및 인터페이스.동물을 보호하고 있는 센터 지도 페이지이다 </em>
+</p>
+ <h4 align="left"> 3.12. 동물병원</h4>
    
 <p align="center">
  <img src="Website/Picture24.png" style="width:800px;"/>
@@ -494,7 +506,9 @@ mutate {
  <img src="Website/Picture25.png" style="width:800px;"/>
 </p>
 
-
+<p align = "center">
+ <em>그림: 동물병원 바의 코드 및 인터페이스. 동물을 치료하는 동물병원 지도 페이다이다. </em>
+</p>
    
    
    
