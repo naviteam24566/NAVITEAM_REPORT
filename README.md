@@ -49,7 +49,7 @@ Email: naviteam24566@gmail.com
 
 <left><img width="300" height="200" src="https://cdn.mground.kr/mground/2021/11/%EC%95%88%EB%9D%BD%EC%82%AC%EC%9C%84%EA%B8%B0-%EC%9C%A0%EA%B8%B0%EA%B2%AC-%EC%9E%85%EC%96%91.jpg"><left>
 <img width="300" height="200" src="https://image.kmib.co.kr/online_image/2020/0729/611718110014851798_1.jpg" />
-<img width="300" height="200" src="https://img.animalplanet.co.kr/thumbnail/2020/07/23/2000/8s6nt1hl1016wh1l06br.jpg" />
+<img width="250" height="200" src="https://img.animalplanet.co.kr/thumbnail/2020/07/23/2000/8s6nt1hl1016wh1l06br.jpg" />
  
 
    * 이상으로 유기동물의 현황에 의하여 한국 정부는 동물소유자의 사육·관리 의무를 강화하고 동물 학대 등 위법행위시 처벌 규정 또한 대폭 강화함으로써 2008년 1월 27일부터 개정된 동물보호법이 시행되고 있다. 
