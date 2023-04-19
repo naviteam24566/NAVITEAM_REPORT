@@ -349,7 +349,7 @@ mutate {
 
 <h4 align="left">2. 데이터 활용 </h4>
    
-* 키바나에서 분석했던 유기동물 정보에 대한 데이터를 활용함과 같이 Visual Studio Code를 사용했다.</br>
+* 키바나에서 분석했던 유기동물 정보에 대한 데이터를 활용함과 같이 Visual Studio Code를 사용했다.</br>  
 * 유기동물 정보에 대한 데이터에 의하고 Visual Studio Code를 통하여 웹사이트의 각 성분을 디자인하기 위해서 코딩했다.
  
  <h4 align="left">3. 웹사이트 구축</h4>
